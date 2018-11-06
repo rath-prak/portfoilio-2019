@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,800');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+
+$font-color: #253045;
+
+// font-family: 'Libre Baskerville', serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: $font-color;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  hyphens: none;
+  color: $font-color;
+  font-size: 16px;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
+// Headings
+
+.portfolio-item-heading {
+  p {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  h1 {
+    color: $font-color;
+  }
+}
+
+
+.col-2-text {
+  padding: 30px 0px;
+}
+
+.quote-center {
+  padding: 90px 0px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
+}

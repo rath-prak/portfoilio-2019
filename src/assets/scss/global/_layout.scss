@@ -1,0 +1,28 @@
+/* FULL PAGE HEADER IMAGE */
+.fp-header {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  max-height: rem-calc(1350);
+  min-height: rem-calc(550);
+  display: flex;
+  align-items: center;
+}
+  
+  .feature-banner {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .section-wrapper {
+      margin: 60px 0;
+    }
+} 
+
+.portfolio-item-hero {
+  padding: 180px 0px 60px 0px;
+}
+
