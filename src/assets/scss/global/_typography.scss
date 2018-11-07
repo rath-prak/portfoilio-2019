@@ -23,8 +23,9 @@ p {
   font-size: 16px;
 }
 
-a {
+a, li {
   font-family: 'Poppins', sans-serif;
+  color: $font-color;
 }
 
 // Headings
@@ -45,8 +46,13 @@ a {
 }
 
 .quote-center {
-  padding: 90px 0px;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
   font-size: 28px;
+}
+
+.lead-paragraph {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.2;
 }

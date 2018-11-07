@@ -1,0 +1,52 @@
+.footer-wapper {
+    padding: 90px 0;
+    .footer-logo {
+        width: 200px;
+    }
+}
+
+.footer-menu {
+    display: flex;
+    margin: 0px;
+    li {
+        list-style-type: none;
+        margin-right: 30px;
+    }
+    li > a {
+        color: $font-color;
+    }
+    li > a:hover {
+        font-weight: 700;
+        color: $primary-color;
+    }
+
+    li > a::after {
+        display: block;
+        content: attr(title);
+        font-weight: 700;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+    }
+}
+
+.footer-content {
+    .footer-blurb {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    .footer-contact {
+        h6 {
+          color: rgba($font-color, 0.75);
+        }
+        ul {
+            margin: 0px;
+        }
+        ul > li {
+            list-style-type: none;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+}

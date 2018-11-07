@@ -60,11 +60,11 @@
   ul > li {
     margin-top: 10px;
     list-style-type: none;
-    font-size: 1em;
+    font-size: 14px;
   }
   ul > li > a {
     padding: 15px;
-    color: lighten($black, 40);
+    color: $font-color;
     font-weight: 400;
   }
   ul > li > a:hover {

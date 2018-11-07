@@ -1,3 +1,36 @@
 .fomo-annual-report {
-    background: lighten($black, 99);
+    background: lighten($black, 98);
+    // background: #3d762d;
+}
+
+/// temp
+
+.fomo-left,
+.fomo-right {
+    height: 650px;
+    padding: 120px;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      color: $white;
+    }
+}
+
+.fomo-right {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.fomo-left {
+    background: #3d762d;
+    h3 {
+    color: rgba($white, 0.5);
+    text-align: left;
+    }
+}
+
+.fomo-right {
+    background: #df6b20;
 }
