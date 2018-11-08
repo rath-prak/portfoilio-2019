@@ -1,7 +1,13 @@
 /* FULL PAGE HEADER IMAGE */
 
 section {
-  padding: 30px 0px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 64em) {
+  section {
+    padding: 30px 0px;
+  }
 }
 
 .fp-header {
@@ -27,13 +33,17 @@ section {
     }
 } 
 
-.portfolio-item-hero {
-  padding: 180px 0px 60px 0px;
-}
-
-.portfolio-item-1-col-text {
+// text center
+.col-1-text-center {
   h3, p {
     text-align: center;
   }
 }
 
+// full page image
+.fw-image {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}

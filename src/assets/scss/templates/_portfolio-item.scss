@@ -1,36 +1,44 @@
-.fomo-annual-report {
-    background: lighten($black, 98);
-    // background: #3d762d;
-}
-
-/// temp
-
-.fomo-left,
-.fomo-right {
-    height: 650px;
-    padding: 120px;
-    display: flex;
-    // align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    p {
-      color: $white;
+// Portfolio item hero
+.portfolio-item-hero {
+    padding-top: 90px;
+  }
+  
+  @media screen and ( min-width: 64em ){
+    .portfolio-item-hero {
+      padding-top: 180px;
     }
-}
-
-.fomo-right {
-    padding: 10px;
-    overflow: hidden;
-}
-
-.fomo-left {
-    background: #3d762d;
-    h3 {
-    color: rgba($white, 0.5);
-    text-align: left;
+  }
+  
+  .portfolio-item-heading {
+    .portfolio-item-tags {
+      margin: 0px;
+      display: flex;
+      li {
+        list-style-type: none;
+        text-transform: uppercase;
+        margin-right: 8px;
+      }
     }
-}
-
-.fomo-right {
-    background: #df6b20;
-}
+    a:hover {
+      font-weight: 700;
+      color: $primary-color;
+    }
+      a::after {
+      display: block;
+      content: attr(title);
+      font-weight: 700;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden;
+    }
+    h1 {
+      color: $font-color;
+      margin-bottom: 5px;
+    }
+    .portfolio-heaing-client {
+      span {
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+  }
