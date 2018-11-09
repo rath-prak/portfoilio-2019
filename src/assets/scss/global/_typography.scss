@@ -10,6 +10,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: $font-color;
 }
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+p::selection,
+a::selection,
+li::selection, { 
+  background: $primary-color;
+  color: $white; 
+}
 
 h1 {
   margin-bottom: 30px;
