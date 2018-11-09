@@ -7,7 +7,7 @@ const navigation = () => {
   let $bar1 = $toggleBarsWrapper.find("b:nth-child(1)");
   let $bar2 = $toggleBarsWrapper.find("b:nth-child(2)");
   let $bar3 = $toggleBarsWrapper.find("b:nth-child(3)");
-  let $toggleBars = $('.toggle-bars b')
+  let $toggleBars = $('.toggle-bars b');
 
   let $dropdownLink = $('.dropdown-link');
   let $dropdownMenu = $('.dropdown-menu');

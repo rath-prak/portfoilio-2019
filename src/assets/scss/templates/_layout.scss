@@ -40,9 +40,27 @@ section {
   }
 }
 
-// full page image
-.fw-image {
+// full page image center page
+.fw-image-01 {
   width: 100%;
+  text-align: center;
+  img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 40em){
+  .fw-image-01 {
+    img {
+      width: 80%;
+    }
+  }
+}
+
+// full page image flush
+.fw-image-02 {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
   img {
     width: 100%;
   }

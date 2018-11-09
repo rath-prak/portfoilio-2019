@@ -13,15 +13,21 @@
 
 }
 
-.quote-center {
+// Lead text for introduction paragraphs
+.pull-quote-center {
     text-align: center;
     font-family: 'Libre Baskerville', serif;
-    font-size: 28px;
-  }
+    font-size: 20px;
+}
+
+@media screen and (min-width: 40em){
+    .pull-quote-center {
+        font-size: 28px;
+    }
+}
 
 
-// Lead text for introduction paragrapjs
-  
+// Lead text for introduction paragraphs
 .lead-paragraph {
     font-size: 18px;
     font-weight: 400;
