@@ -20,11 +20,23 @@
     font-size: 20px;
 }
 
+.pull-quote-left {
+    font-size: 20px;
+    text-align: center;
+}
+
 @media screen and (min-width: 40em){
     .pull-quote-center {
         font-size: 28px;
     }
+    .pull-quote-left {
+        font-size: 40px;
+        text-align: left;
+        padding-right: 60px;
+    }
 }
+
+
 
 
 // Lead text for introduction paragraphs

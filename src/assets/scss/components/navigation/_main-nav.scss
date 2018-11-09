@@ -70,6 +70,7 @@
     color: $font-color;
     font-weight: 600;
     transition: color 0.1s cubic-bezier(.17,.67,.83,.67);
+    letter-spacing: 1.2;
   }
   ul > li > a:hover {
     color: $primary-color;
