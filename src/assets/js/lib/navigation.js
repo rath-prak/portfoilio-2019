@@ -7,13 +7,15 @@ const navigation = () => {
   let $bar1 = $toggleBarsWrapper.find("b:nth-child(1)");
   let $bar2 = $toggleBarsWrapper.find("b:nth-child(2)");
   let $bar3 = $toggleBarsWrapper.find("b:nth-child(3)");
-  let $toggleBars = $('.toggle-bars b');
+  let $toggleBars = $('.toggle-bars');
 
   let $dropdownLink = $('.dropdown-link');
   let $dropdownMenu = $('.dropdown-menu');
   let $sidenavWrapper = $('.sidenav-wrapper');
   let $sidenavDroplink = $('.sidenav-dropdown-link');
   let $sidenavDropMenu = $('.sidenav-dropdown-menu');
+  let $overlayNav = $('.overlay-nav');
+  let tbdLogo = $('#tbd-pink');
 
   // Hamburger toggle
   let tl = new TimelineMax({ paused:true, reversed:true });
@@ -31,9 +33,28 @@ const navigation = () => {
     ease: Back.easeIn,
   }, 0.2)
 
+  // tbd logo color change
+  tl.to(tbdLogo, 1, {
+    css:{
+      fill:"#FFFFFF",
+    }
+  });
 
+  // $toggleBarsWrapper.click(() => {
+  //   tl.reversed() ? tl.play() : tl.reverse();
+  // });
+
+  
+
+
+  
   $toggleBarsWrapper.click(() => {
     tl.reversed() ? tl.play() : tl.reverse();
+
+    setTimeout(function(){
+      $overlayNav.toggleClass('open');
+      $toggleBars.toggleClass('toggle-reverse');
+    }, 700);
   });
 
 

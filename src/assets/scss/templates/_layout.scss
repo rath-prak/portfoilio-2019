@@ -3,6 +3,9 @@
 section {
   padding: 15px;
 }
+.hero-section {
+  padding-top: 90px;
+}
 
 @media screen and (min-width: 64em) {
   section {
@@ -63,5 +66,23 @@ section {
   padding-right: 0px;
   img {
     width: 100%;
+  }
+}
+
+// Col-3-img-text
+.col-3-img-text {
+  h5 {
+    margin-top: 20px;
+  }
+}
+
+// Logo crawl
+.logo-crawl-wrapper {
+  img {
+    padding: 10px;
+  }
+  p {
+    font-weight: 600;
+    color: $dark-gray
   }
 }
