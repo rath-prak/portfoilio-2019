@@ -1,5 +1,5 @@
 const btnUnderline = () => {
-  let $menuItem = $('.nav-menu').find('a');
+  let $menuItem = $('.nav-menu, .portfolio-menu').find('a');
 
   $menuItem.mouseover(function(){
     let $menuItemUnderline = $( this ).next( '.menu-underline' );

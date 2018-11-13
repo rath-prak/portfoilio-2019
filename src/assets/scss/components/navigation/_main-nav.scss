@@ -64,9 +64,10 @@
     // margin-top: 5px;
     list-style-type: none;
     font-size: 14px;
+    margin-left: 30px;
   }
   ul > li > a {
-    padding: 15px;
+    // padding: 15px;
     color: $font-color;
     font-weight: 600;
     transition: color 0.1s cubic-bezier(.17,.67,.83,.67);
@@ -235,4 +236,11 @@
     width: 100px;
     margin-top: 20px;
   }
+}
+
+/* UNDERLINE BUTTON */
+.menu-underline {
+  height: rem-calc(2);
+  transform: scaleX(0);
+  background: $primary-color;
 }

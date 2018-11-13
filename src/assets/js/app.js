@@ -12,7 +12,7 @@ import Foundation from 'foundation-sites';
 
 $(document).ready(function(){
 
-  // menuUnderline();
+  menuUnderline();
   // Slide in navigation & hamburger toggle
   navigation();
   // Auto hide navigation
