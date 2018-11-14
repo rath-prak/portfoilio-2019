@@ -13,16 +13,25 @@
 
 }
 
+.text-divider {
+    width: 80px;
+    height: 2px;
+    background: $primary-color;
+    margin: 30px 0px;
+}
+
 // Lead text for introduction paragraphs
 .pull-quote-center {
     text-align: center;
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
+    margin-bottom: 0px;
 }
 
 .pull-quote-left {
     font-size: 20px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 @media screen and (min-width: 40em){
@@ -113,5 +122,24 @@
     }
   }
 
+
+  // Intro progragraph
+  .hero-paragraph {
+      h1 {
+          text-transform: uppercase;
+          color: $primary-color;
+          line-height: 1.1;
+      }
+      p {
+          font-size: 18px;
+      }
+  }
+
+  //center blurb 
+  .center-blurb {
+      text-align: center;
+      padding-top: 90px;
+      font-size: 24px;
+  }
 
   
