@@ -9,6 +9,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: $font-color;
 }
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
 h1::selection,
 h2::selection,
 h3::selection,
@@ -42,4 +47,8 @@ a, li {
 
 .white-text {
   color: $white;
+}
+
+.primary-color-text {
+  color: $primary-color;
 }

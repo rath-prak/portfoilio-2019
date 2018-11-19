@@ -1,3 +1,4 @@
+
 /* FULL PAGE HEADER IMAGE */
 
 section {
@@ -88,4 +89,11 @@ section {
     font-weight: 600;
     color: $dark-gray
   }
+}
+
+// Two columns - image left
+.col-2-one-img {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
 }
