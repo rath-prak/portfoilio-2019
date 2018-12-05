@@ -1,0 +1,31 @@
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+}
+
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    .grid-container {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        padding: 0 90px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        padding: 0 90px;
+    }
+}
+
+/* Large and up */
+@media screen and (min-width: 1340px) {
+    .grid-container {
+        padding: 0px;
+    }
+}

@@ -4,7 +4,7 @@
   z-index: 1000;
   height: 80px;
 }
-.opaque-background { 
+.opaque-background {
 	width:100%;
   // background: rgba($secondary-color, 0.90);
   background: rgba($white, 0.0);
@@ -34,6 +34,10 @@
 .nav-menu {
   display: none;
   // visibility: hidden;
+}
+
+#logo {
+  fill: $secondary-color;
 }
 
 .nav-logo {
@@ -71,7 +75,7 @@
   }
   ul > li > a {
     // padding: 15px;
-    color: $font-color;
+    color: $secondary-color;
     font-weight: 600;
     transition: color 0.1s cubic-bezier(.17,.67,.83,.67);
     letter-spacing: 1.2;
@@ -111,16 +115,16 @@
 }
 
 /* Breakpoint */
-@media screen and (min-width: 930px) {
-  .nav-menu {
-    display: block;
-    // visibility: visible;
-  }
-  .toggle-bar-wrapper,
-  .sidenav-wrapper {
-    display: none;
-  }
-}
+// @media screen and (min-width: 930px) {
+//   .nav-menu {
+//     display: block;
+//     // visibility: visible;
+//   }
+//   .toggle-bar-wrapper,
+//   .sidenav-wrapper {
+//     display: none;
+//   }
+// }
 
 
 /* Dropdown Menu */
@@ -184,7 +188,7 @@
   left: 0;
   width: 34px;;
   height: 2px;
-  background: $primary-color;
+  background: $secondary-color;
   transition: background 1s;
 }
 
@@ -210,7 +214,7 @@
 /* Full page overlay navigation menu */
 .overlay-nav {
   position: fixed;
-  background: rgba($primary-color, 0.95);
+  background: rgba($secondary-color, 0.95);
   top: 0;
   left: 0;
   width: 100%;
@@ -236,7 +240,7 @@
     list-style-type: none;
   }
   li > a {
-    color: $white;
+    color: $primary-color;
     font-size: 30px;
     font-weight: 600;
   }
@@ -246,6 +250,15 @@
   li > img {
     width: 100px;
     margin-top: 20px;
+  }
+}
+
+// Contact and social media icons
+.contact-icons {
+  display: flex;
+  margin: 0px;
+  li {
+    padding: 0px 15px;
   }
 }
 

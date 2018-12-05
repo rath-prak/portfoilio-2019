@@ -1,0 +1,30 @@
+.home-hero {
+  background: $primary-color;
+  p {
+    color: $secondary-color;
+    font-size: 20px;
+  }
+  h3 {
+    text-transform: uppercase;
+    color: $secondary-color;
+  }
+  .hero-image {
+    img {
+      width: 200px;
+      margin-left: 90px;
+    }
+  }
+}
+
+
+.into-para {
+  padding: 120px 0;
+  color: $primary-color;
+  p {
+    font-size: 36px;
+  }
+}
+
+.intro-section {
+  margin: 90px 0;
+}

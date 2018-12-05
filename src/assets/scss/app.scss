@@ -70,8 +70,7 @@
 // global styles
 @import 'global/colors';
 @import 'global/typography';
-
-
+@import 'global/grid';
 
 // custom components
 @import 'components/navigation/main-nav';
@@ -88,4 +87,4 @@
 
 // Pages
 
-@import 'pages/teawe';
+@import 'pages/home';

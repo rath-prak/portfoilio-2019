@@ -1,5 +1,6 @@
 .horizontal-ruler-thick,
-.horizontal-ruler-thin {
+.horizontal-ruler-thin,
+.horizontal-ruler-thick-02 {
     width: 100%;
     height: 3px;
     background: $font-color;
@@ -9,6 +10,11 @@
 .horizontal-ruler-thin {
     height: 1px;
     background: rgba($font-color, 0.25);
+
+}
+
+.horizontal-ruler-thick-02 {
+    margin-top: 10px;
 
 }
 
@@ -64,6 +70,16 @@
 
 
 // Lead text for introduction paragraphs
+.lead-paragraph-large {
+    font-size: 32px;
+    font-weight: 400;
+   span {
+      font-weight: 800;
+      color: $primary-color;
+    }
+}
+
+
 .lead-paragraph {
     font-size: 18px;
     font-weight: 400;
@@ -78,20 +94,32 @@
     }
 }
 
-// Big Heading
-.heading-01 {
-    // margin-bottom: 30px;
-    h3 {
-        margin-bottom: 0px;
-    }
-    h3:first-child {
-        color: $font-color;
-    }
-    h3:last-child {
-        color: lighten($font-color, 60);
+.lead-paragraph-02 {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    // color: $dark-gray;
+}
+
+@media screen and (min-width: 40em){
+    .lead-paragraph-02 {
+        font-size: 20px;
     }
 }
 
+
+/* -------- HEADINGS ------- */
+.heading-big,
+.heading-small {
+    text-transform: uppercase;
+}
+
+.lead-text-bold {
+    font-weight: 600;
+}
 // Image overlay box
 .img-overlay {
     position: relative;
@@ -163,13 +191,9 @@
       }
   }
 
-  //center blurb 
+  //center blurb
   .center-blurb {
       text-align: center;
       padding-top: 90px;
       font-size: 24px;
   }
-
-
-
-  
