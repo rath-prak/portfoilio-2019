@@ -33,12 +33,7 @@ const navigation = () => {
     ease: Back.easeIn,
   }, 0.2)
 
-  // tbd logo color change
-  tl.to(tbdLogo, 1, {
-    css:{
-      fill:"#FFFFFF",
-    }
-  });
+
 
   // $toggleBarsWrapper.click(() => {
   //   tl.reversed() ? tl.play() : tl.reverse();

@@ -48,16 +48,19 @@
         }
         ul {
             margin: 0px;
+            
         }
         ul > li {
             list-style-type: none;
             font-weight: 600;
             font-size: 14px;
         }
-        .footer-contact-phone {
-            margin-top: 10px;
-            font-weight: 600;
-            text-decoration: underline;
+        .footer-social {
+            display: flex;
+            li {
+                margin-right: 10px;
+                font-size: 16px;
+            }
         }
     }
     .horizontal-ruler-thin {

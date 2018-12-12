@@ -14,7 +14,7 @@ const navAutoHide = () => {
           fill:"#381F75",
         }
       });
-      $('.toggle-bars').removeClass('toggle-reverse')
+      $('.toggle-bars').removeClass('toggle-reverse-up')
     } else {
       $('.opaque-background').addClass('add-background');
       TweenLite.to(tbdLogo, 0.25, {
@@ -32,9 +32,9 @@ const navAutoHide = () => {
         })
       };
       slideDown(headerNav, 0.3);
-      // slideDown(navLogo, 0.5);
+      // slideDown(navLogo, 0.5);s
       $('.nav-menu').removeClass('reverse');
-      $('.toggle-bars').addClass('toggle-reverse')
+      $('.toggle-bars').addClass('toggle-reverse-upe')
     }
     else {
       TweenMax.to([headerNav], 0.3, {

@@ -29,18 +29,6 @@ $(document).ready(function(){
   target.addClass('active');
   targetFooterMenu.addClass('active');
 
-  // $('.slick').slick({
-  //   draggable: true,
-  //   arrows: false,
-  //   dots: true,
-  //   fade: true,
-  //   autoplay: true,
-  //   autoplaySpeed: 3000,
-  //   speed: 2000,
-  //   infinite: true,
-  //   cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
-  //   touchThreshold: 100
-  // })
 
 });
 

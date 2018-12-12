@@ -3,6 +3,7 @@
   width: 100%;
   z-index: 1000;
   height: 80px;
+  // background: $primary-color;
 }
 .opaque-background {
 	width:100%;
@@ -42,10 +43,9 @@
 
 .nav-logo {
   width: 12em;
-  margin-left: 10px;
+  margin-left: 20px !important;
   padding-top: 10px;
   img {
-    // padding: 20px;
     width: 100%;
   }
   svg {
@@ -68,13 +68,11 @@
     margin-bottom: 0px;
   }
   ul > li {
-    // margin-top: 5px;
     list-style-type: none;
     font-size: 14px;
     margin-left: 30px;
   }
   ul > li > a {
-    // padding: 15px;
     color: $secondary-color;
     font-weight: 600;
     transition: color 0.1s cubic-bezier(.17,.67,.83,.67);
@@ -194,9 +192,16 @@
 
 .toggle-reverse {
   b {
-    background: $white;
+    background: $primary-color;
   }
 }
+
+.toggle-reverse-up {
+  b {
+    background: $secondary-color;
+  }
+}
+
 
 .toggle-bars b:nth-child(1) {
   top: 0%;
