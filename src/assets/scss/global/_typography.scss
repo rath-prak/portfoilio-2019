@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,800');
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
-
+// @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,800');
+@import url(http://webfonts-plus.herokuapp.com?family=Graphik);
 
 // font-family: 'Libre Baskerville', serif;
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-family: "Graphik", sans-serif;
+  font-weight: 900;
   color: $font-color;
 }
 
@@ -22,9 +21,9 @@ h5::selection,
 h6::selection,
 p::selection,
 a::selection,
-li::selection, { 
+li::selection, {
   background: $primary-color;
-  color: $white; 
+  color: $white;
 }
 
 h1 {
@@ -32,7 +31,7 @@ h1 {
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Graphik", sans-serif;
   font-weight: 300;
   hyphens: none;
   color: $font-color;
@@ -41,7 +40,7 @@ p {
 }
 
 a, li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Graphik", sans-serif;
   color: $font-color;
 }
 
