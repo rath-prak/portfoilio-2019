@@ -32,21 +32,12 @@ const navigation = () => {
     x: '0',
     ease: Back.easeIn,
   }, 0.2)
-
-
-
-  // $toggleBarsWrapper.click(() => {
-  //   tl.reversed() ? tl.play() : tl.reverse();
-  // });
-
-  
-
-
   
   $toggleBarsWrapper.click(() => {
     tl.reversed() ? tl.play() : tl.reverse();
 
     setTimeout(function(){
+      $('.opaque-background').toggleClass('add-background');
       $overlayNav.toggleClass('open');
       $toggleBars.toggleClass('toggle-reverse');
     }, 700);
@@ -62,17 +53,6 @@ const navigation = () => {
      $dropdownMenu.slideUp('fast');
   });
 
-
-  // $('.tabs-nav .tab-links a').on('click', function(e)  {
-  //   var currentAttrValue = $(this).attr('href');
-  //   // Show/Hide Tabs
-  //   $('.tabs-nav ' + currentAttrValue).show().siblings().hide();
-  //   // Change/remove current tab to active
-  //   $(this).parent('li').addClass('active').siblings().removeClass('active');
-  //   e.preventDefault();
-  // });
-
-  // side nav secondary dropdown
   $sidenavDroplink.on('click', () => {
      $sidenavDropMenu.toggleClass('sidenav-active-menu');
   });
