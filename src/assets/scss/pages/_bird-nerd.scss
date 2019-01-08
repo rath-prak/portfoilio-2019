@@ -1,0 +1,13 @@
+$bird-main-color: #E94444;
+
+.bird-wrapper {
+    background: $white;
+    .bird-hero-img {
+        background: green;
+        text-align: center;
+        img {
+            width: 200px;
+        }
+    }
+}
+
