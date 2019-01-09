@@ -42,6 +42,14 @@
     }
 }
 
+// Project introduction
+.project-intro {
+    padding-top: 180px;
+    h6 {
+        text-transform: uppercase;
+    }
+}
+
 // Lead text for introduction paragraphs
 .pull-quote-center {
     text-align: center;
@@ -126,7 +134,8 @@
     margin-bottom: 15px;
     .img-overlay-caption {
     //   background: rgba($primary-color, 0.8);
-      background: rgba($white, 0.90);
+    //   background: rgba($white, 0.90);
+    background: rgba($secondary-color, 0.9);
       position: absolute;
       width:100%;
       height: 100%;
