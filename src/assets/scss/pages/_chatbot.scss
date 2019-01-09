@@ -1,0 +1,38 @@
+.chatbot-wrapper {
+    background: #394c88;
+}
+
+.chat-hero {
+    text-align: center;
+    img {
+        width: 200px;
+    }
+    h1, h2, p {
+        color: $white;
+    }
+    h2 {
+        font-weight: 300;
+    }
+
+}
+
+.chatbot-climate {
+    background: #50659b;
+    padding: 90px 0;
+    .climate-globe {
+        img {
+            width: 200px;
+        }
+    }
+
+    h1, p {
+        color: $white;
+    }
+
+}
+
+.chatbot-bluey {
+    padding: 90px 0;
+    background: #749cd1;
+}
+
