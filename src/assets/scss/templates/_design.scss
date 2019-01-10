@@ -25,7 +25,8 @@
     opacity: 0.25;
 }
 
-.text-divider {
+.text-divider,
+.text-divider-rev {
     width: 80px;
     height: 2px;
     background: $primary-color;
@@ -37,6 +38,10 @@
     height: 1px;
     background: $primary-color;
     margin: 10px 0px;
+}
+
+.text-divider-rev {
+    background: $white;
 }
 
 .text-padding-left {
@@ -54,6 +59,7 @@
     padding-top: 180px;
     h6 {
         text-transform: uppercase;
+        font-weight: 400;
     }
 }
 
@@ -212,4 +218,12 @@
       text-align: center;
       padding-top: 90px;
       font-size: 24px;
+  }
+
+  //Captions
+  .caption {
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      font-style: italic;
   }
