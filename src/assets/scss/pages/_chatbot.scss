@@ -1,38 +1,37 @@
+$chatbot-color: #2E2F98;
+
 .chatbot-wrapper {
-    background: #394c88;
+    background: #FFFFFF;
 }
 
 .chat-hero {
     text-align: center;
+    * {
+      color: $chatbot-color;  
+    } 
     img {
         width: 200px;
-    }
-    h1, h2, p {
-        color: $white;
     }
     h2 {
         font-weight: 300;
     }
-
 }
 
-.chatbot-climate {
-    background: #50659b;
-    padding: 90px 0;
-    .climate-globe {
+.chatbot-left, 
+.chatbot-right {
+    padding: 90px;
+}
+
+.chatbot-left {
+    height: 100vh;
+}
+
+.chatbot-right {
+    background: #ece9f4;
+    height: 100vh;
+    .bluey {
         img {
-            width: 200px;
+            width : 200px;
         }
     }
-
-    h1, p {
-        color: $white;
-    }
-
 }
-
-.chatbot-bluey {
-    padding: 90px 0;
-    background: #749cd1;
-}
-
