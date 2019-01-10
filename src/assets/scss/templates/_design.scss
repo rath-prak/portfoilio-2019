@@ -1,6 +1,7 @@
 .horizontal-ruler-thick,
 .horizontal-ruler-thin,
-.horizontal-ruler-thick-02 {
+.horizontal-ruler-thick-02,
+.horizontal-ruler-thick-rev {
     width: 100%;
     height: 3px;
     background: $font-color;
@@ -16,6 +17,12 @@
 .horizontal-ruler-thick-02 {
     margin-top: 10px;
 
+}
+
+.horizontal-ruler-thick-rev {
+    background: $white;
+    height: 2px;
+    opacity: 0.25;
 }
 
 .text-divider {

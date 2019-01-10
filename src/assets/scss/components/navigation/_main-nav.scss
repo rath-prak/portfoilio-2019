@@ -44,7 +44,7 @@
 .nav-logo {
   width: 12em;
   margin-left: 20px !important;
-  padding-top: 10px;
+  // padding-top: 10px;
   img {
     width: 100%;
   }
@@ -166,7 +166,7 @@
 /* Hamburger Toggle */
 .toggle-bar-wrapper {
   position: fixed;
-  top: 20px;
+  top: 25px;
   right: -15px;;
   align-items: center;
   overflow: hidden;
@@ -186,8 +186,14 @@
   left: 0;
   width: 34px;;
   height: 2px;
-  background: $secondary-color;
+  background: $font-color;
   transition: background 1s;
+}
+
+.toggle-bars-rev {
+  b {
+    background: $white;
+  }
 }
 
 .toggle-reverse {

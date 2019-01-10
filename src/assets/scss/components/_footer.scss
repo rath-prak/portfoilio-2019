@@ -1,3 +1,16 @@
+.footer-rev {
+    *{
+        color: $white;
+    }
+    .footer-content {
+        .footer-contact {
+            h6 {
+                color: $white;
+            }
+        }
+    } 
+}
+
 .footer-wapper {
     padding: 10px;
     .footer-logo {
@@ -43,7 +56,7 @@
     }
     .footer-contact {
         h6 {
-        color: $primary-color;
+        color: $font-color;
         margin-top: 20px;
         }
         ul {
