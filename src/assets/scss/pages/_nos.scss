@@ -1,9 +1,5 @@
 $nos-color: red;
 
-// .nos-wrapper {
-//     background: #EDEBF3;
-// }
-
 .nos-intro-wrapper {
     background: lighten(#EDEBF3, 5);
     position: relative;
@@ -16,23 +12,4 @@ $nos-color: red;
         margin-top: 30px;
         width: 650px;
     }
-    .nos-circle {
-        position: absolute;
-        right: -15%;
-        top: 5%;
-        opacity: 0.25;
-        width: 25%;
-    }
-    .nos-ring {
-        position: absolute;
-        left: -10%;
-        top: 15%;
-        opacity: 0.40;
-        width: 20%;
-    }
-}
-
-// nOS introduction section
-.nos-intro {
-    margin-bottom: 30px;
 }
