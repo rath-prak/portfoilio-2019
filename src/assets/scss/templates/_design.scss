@@ -135,6 +135,9 @@
     }
 }
 
+.lead {
+  font-size: 20px;
+}
 
 /* -------- HEADINGS ------- */
 .heading-big,
@@ -152,7 +155,7 @@
     .img-overlay-caption {
     //   background: rgba($primary-color, 0.8);
     //   background: rgba($white, 0.90);
-    background: rgba($secondary-color, 0.9);
+    background: rgba($secondary-color, 1);
       position: absolute;
       width:100%;
       height: 100%;
