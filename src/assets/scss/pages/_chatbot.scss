@@ -4,29 +4,31 @@ $chatbot-color: #2E2F98;
     background: #FFFFFF;
 }
 
-.chatbot-left, 
+.chatbot-left,
 .chatbot-right {
     padding: 30px;
 }
 
 @media screen and (min-width: 40em){
-    .chatbot-left, 
+    .chatbot-left,
     .chatbot-right {
-        padding: 90px;
+        padding: 60px;
     }
 }
 
-// LEFT
-.chatbot-left {
+
+.chat-hero-wrapper {
     min-height: 100vh;
-    .chat-hero {
+    background: #2068AD;
+    .chat-hero-content {
         margin-top: 60px;
         text-align: center;
         * {
-          color: $chatbot-color;  
-        } 
+          // color: $chatbot-color;
+          color: $white;
+        }
         img {
-            width: 150px;
+            width: 220px;
             margin-bottom: 30px;
         }
         h1 {
@@ -35,57 +37,111 @@ $chatbot-color: #2E2F98;
         }
         h2 {
             font-weight: 300;
-            font-size: 24px;
+            font-size: 36px;
             line-height: auto;
         }
-    }    
-}
-
-@media screen and (min-width: 64em) {
-    .chatbot-left {
-        .chat-hero {
-            img {
-                width: 200px;
-                margin-bottom: 30px;
-            }
-            h1 {
-                font-size: 40px;
-                margin-top: 30px;
-                margin-bottom: 5px;
-            }
-            h2 {
-                font-weight: 300;
-                font-size: 24px;
-                line-height: auto;
-            }
+        p {
+          font-size: 22px;
         }
     }
 }
 
-// RIGHT
+.climate-wrapper {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #759AD0;
+  .climate-globe {
+    margin: 0 auto;
+    text-align: center;
+    img {
+      width: 200px
+    }
+  }
+  .climate-content {
+    h3, p {
+      color: $white !important;
+      text-align: center;
+    }
+  }
+  p {
+    font-size: 18px;
+  }
+}
 
-.chatbot-right {
-    background: #ece9f4;
-    min-height: 100vh;
+.bluey-wrapper {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: darken(#759AD0, 10);
+  .bluey-content-wrapper {
+    flex-direction: column-reverse;
+  }
+  .bluey {
+    text-align: center;
+    margin-bottom: 30px;
+    img {
+      width: 240px;
+    }
+  }
+  .bluey-content {
+    padding-right: 0px;
+    text-align: center;
+    h2, p {
+      color: $white;
+    }
+    p {
+      font-size: 18px;
+       margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 64em){
+  .bluey-wrapper {
+    .bluey-content-wrapper {
+      flex-direction: row;
+    }
     .bluey {
-        text-align: center;
+      img {
+        width: 300px;
+      }
     }
-    .chat-hero-right {
-        margin-top: 60px;
-        img {
-            width : 200px;
-        }
+    .bluey-content {
+      padding-right: 90px;
+      text-align: center;
+      h2, p {
+        color: $white;
+      }
+      p {
+        font-size: 18px;
+         margin-bottom: 30px;
+      }
     }
+  }
 }
 
 .messenger-button {
-    // background: darken(#F65E78, 10);
     background: #F65E78;
     display: inline-block;
-    padding: 20px 60px;
-    color: $white !important;
-    a {
-        margin: 0;
-        color: $white !important;
-    }
+    padding: 10px 40px;
+    color: $white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background 0.25s;
 }
+
+.messenger-button:hover {
+    background: darken(#F65E78, 10);
+    color: $white;
+}
+
+
+.chatbot-footer {
+  background: #394C88;
+}
+// @media screen and (min-width: 64em) {
+//   .chatbot-right {
+//       .chat-hero-right {
+//           margin-top: 30px;
+//       }
+//   }
+// }
