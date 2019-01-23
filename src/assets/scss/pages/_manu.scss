@@ -1,0 +1,104 @@
+$bird-main-color: #E94444;
+
+.manu-hero-wrapper {
+    background: linear-gradient(135deg, #F54B64 0%,#e94444 100%);
+    * {
+        color: $white;
+    }
+    .bird-hero-img {
+        text-align: center;
+        img {
+            width: 200px;
+        }
+    }
+}
+
+.manu-intro {
+    margin-top: 90px;
+}
+
+// .manu-background,
+// .manu-wireframe,
+// .manu-wireframe-02,
+// .manu-final-prototype,
+// .manu-final {
+//     padding: 60px 0;
+// }
+
+
+// Wireframes section
+.manu-wireframe {
+    // background: #F2F2F2;
+    h5 {
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    img {
+        border: 1px solid rgba($black, 0.1);
+    }
+    .image-caption {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        font-family: $font;
+        font-style: italic;
+        font-weight: 600;
+    }
+    .manu-wireframe-onboarding {
+        margin-bottom: 30px;
+    }
+    .wireframe-row {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.manu-mockups {
+    padding: 60px 0;
+    background: #F2F2F2;
+}
+
+.manu-image {
+    margin-top: 60px;
+}
+
+// Last panel
+.manu-final {
+    h2 {
+        color: $bird-main-color;
+        margin-bottom: 30px;
+    }
+    aside {
+        img {
+            width: 250px;
+            padding-left: 30px;
+        }
+    }
+    .bird-final-content {
+        display: flex;
+        height: auto;
+        align-items: center;
+        padding-right: 30px;
+    }
+}
+
+
+
