@@ -33,14 +33,14 @@
 .text-divider-rev {
     width: 80px;
     height: 2px;
-    background: $primary-color;
+    background: $font-color;
     margin: 30px 0px;
 }
 
 .text-divider-02 {
     width: 15px;
     height: 1px;
-    background: $primary-color;
+    background: $font-color;
     margin: 10px 0px;
 }
 
@@ -240,8 +240,8 @@ margin-bottom: 30px;
 }
   
 // sub-headings
-.sub-heading-01 {
-    margin-bottom: 30px;
+.sub-heading-01,
+.sub-heading-02 {
     display: inline-block;
     position: relative;  
     span:after { 
@@ -255,6 +255,10 @@ margin-bottom: 30px;
         transform: translateY(-50%);
         width: 30px;
     }
+}
+
+.sub-heading-02 {
+    margin-bottom: 15px;
 }
   
 .lead {
