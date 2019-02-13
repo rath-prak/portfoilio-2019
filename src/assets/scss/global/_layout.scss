@@ -22,7 +22,7 @@ section {
   z-index: 1;
   height: 100vh;
   max-height: rem-calc(1350);
-  min-height: rem-calc(850);
+  min-height: rem-calc(650);
   display: flex;
   align-items: center;
 }
@@ -38,6 +38,7 @@ section {
 // }
 
 .hero-content {
+  margin-top: 60px;
   padding: 30px;
   display: flex;
   flex-direction: column;
