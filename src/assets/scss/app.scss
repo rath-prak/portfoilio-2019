@@ -71,6 +71,7 @@
 @import 'global/colors';
 @import 'global/typography';
 @import 'global/grid';
+@import 'global/layout';
 
 // custom components
 @import 'components/navigation/main-nav';
@@ -78,7 +79,6 @@
 @import 'components/buttons';
 
 // templates
-@import 'templates/layout';
 @import 'templates/design';
 @import 'templates/our-work';
 @import 'templates/about';
