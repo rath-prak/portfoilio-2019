@@ -7,7 +7,6 @@
 }
 .opaque-background {
 	width:100%;
-  // background: rgba($secondary-color, 0.90);
   background: rgba($white, 0.0);
   transition: background 0.1s cubic-bezier(.17,.67,.83,.67);
 }
@@ -22,6 +21,7 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
+  padding: 10px 60px 0px 60px;
 }
 
 .main-navigation {
@@ -34,17 +34,17 @@
 
 .nav-menu {
   display: none;
-  // visibility: hidden;
 }
 
+/********************/
+// replace with proper .svg logo file
 #logo {
-  fill: $secondary-color;
+  fill: $font-color;
 }
+/********************/
 
 .nav-logo {
   width: 12em;
-  margin-left: 20px !important;
-  // padding-top: 10px;
   img {
     width: 100%;
   }
@@ -69,11 +69,11 @@
   }
   ul > li {
     list-style-type: none;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 30px;
   }
   ul > li > a {
-    color: $secondary-color;
+    color: $font-color;
     font-weight: 600;
     transition: color 0.1s cubic-bezier(.17,.67,.83,.67);
     letter-spacing: 1.2;
@@ -99,7 +99,6 @@
 }
 
 
-
 .reverse {
   ul > li > a {
     color: $white;
@@ -113,16 +112,16 @@
 }
 
 /* Breakpoint */
-// @media screen and (min-width: 930px) {
-//   .nav-menu {
-//     display: block;
-//     // visibility: visible;
-//   }
-//   .toggle-bar-wrapper,
-//   .sidenav-wrapper {
-//     display: none;
-//   }
-// }
+@media screen and (min-width: 930px) {
+  .nav-menu {
+    display: block;
+    // visibility: visible;
+  }
+  .toggle-bar-wrapper,
+  .sidenav-wrapper {
+    display: none;
+  }
+}
 
 
 /* Dropdown Menu */
