@@ -1,3 +1,8 @@
+img {
+    width: 100%;
+    border: 1px solid rgba($font-color, 0.10);
+}
+
 .horizontal-ruler-thick,
 .horizontal-ruler-thin,
 .horizontal-ruler-thick-02,
@@ -98,11 +103,10 @@
 .lead-paragraph-large {
     font-size: 32px;
     font-weight: 400;
-   span {
-      font-weight: 800;
-      color: $primary-color;
-    }
+    line-height: 1.4;
 }
+
+
 
 
 .lead-paragraph {
@@ -139,7 +143,7 @@
 // Image overlay box
 .img-overlay {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     .img-overlay-caption {
     //   background: rgba($primary-color, 0.8);
     //   background: rgba($white, 0.90);
@@ -197,11 +201,11 @@
     }
   }
 
-.img-item {
-    img {
-        border: 1px solid rgba($font-color, 0.15);
-    }
-}
+// .img-item {
+//     img {
+//         border: 1px solid rgba($font-color, 0.15);
+//     }
+// }
 
   // Intro progragraph
   .hero-paragraph {
@@ -227,6 +231,10 @@
   
 .uppercase {
     text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .project-specs {

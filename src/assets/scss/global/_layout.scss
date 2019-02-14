@@ -1,21 +1,21 @@
 
 /* FULL PAGE HEADER IMAGE */
 
-section {
-  padding: 90px 0px;
-}
+// section {
+//   padding: 90px 0px;
+// }
 
-@media screen and (min-width: 40em){
-  section {
-    padding: 30px 15px;
-  }
-}
+// @media screen and (min-width: 40em){
+//   section {
+//     padding: 30px 15px;
+//   }
+// }
 
-@media screen and (min-width: 64em) {
-  section {
-    padding: 0px;
-  }
-}
+// @media screen and (min-width: 64em) {
+//   section {
+//     padding: 0px;
+//   }
+// }
 
 .fp-header {
   position: relative;
@@ -26,16 +26,6 @@ section {
   display: flex;
   align-items: center;
 }
-
-// .hero-section {
-//   padding: 120px 0px 30px 0px;
-// }
-
-// @media screen and (min-width: 40em){
-//   .hero-section {
-//     padding: 180px 0px 80px 0px;
-//   }
-// }
 
 .hero-content {
   margin-top: 60px;
@@ -66,15 +56,6 @@ section {
 }
 
 
-
-
-  
- 
-  @media screen and (min-width: 40em) {
-    .section-wrapper {
-      margin: 60px 0;
-    }
-} 
 
 // text center
 .col-1-text-center {

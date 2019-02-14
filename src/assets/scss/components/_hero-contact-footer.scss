@@ -1,0 +1,27 @@
+.hero-contact-footer {
+    position: absolute;
+    right: rem-calc(30);
+    bottom: rem-calc(20);
+    display: none;
+    ul {
+        margin: 0px;
+        li {
+            list-style-type: none;
+            display: inline;
+            margin-left: 5px;
+            a {
+                color: rgba($white, $alpha: 0.5);
+                transition: color 0.35s;
+            }
+            a:hover {
+                color: rgba($white, $alpha: 1);
+            }
+        }
+    }
+}
+
+  @media screen and (min-width: rem-calc(800)) {
+    .hero-contact-footer {
+      display: block;
+    }
+  }
