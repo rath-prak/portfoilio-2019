@@ -1,7 +1,7 @@
 .nav-wrapper {
   position: fixed;
   width: 100%;
-  z-index: 1000;
+  z-index: 100;
   height: 80px;
   // background: $primary-color;
 }
@@ -170,7 +170,7 @@
   align-items: center;
   overflow: hidden;
   width: 70px;
-  z-index: 30;
+  z-index: 10000;
 }
 
 .toggle-bars {
@@ -223,6 +223,7 @@
 
 /* Full page overlay navigation menu */
 .overlay-nav {
+  z-index: 2000;
   position: fixed;
   background: rgba($secondary-color, 0.95);
   top: 0;

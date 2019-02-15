@@ -43,9 +43,9 @@ const navAutoHide = () => {
       });
       $('.nav-menu').addClass('reverse');
     }
-    if ( $currentScroll === 0 ){
-      $('.nav-menu').removeClass('reverse');
-    }
+    // if ( $currentScroll === 0 ){
+    //   $('.nav-menu').removeClass('reverse');
+    // }
 
       previousScroll = $currentScroll;
   });
