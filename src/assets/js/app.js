@@ -12,6 +12,8 @@ import Foundation from 'foundation-sites';
 
 $(document).ready(function(){
 
+  alert("Add more white to bird prototype, have a look at NEX app, spend 1 hour research UI design");
+
   menuUnderline();
   // Slide in navigation & hamburger toggle
   navigation();

@@ -4,17 +4,27 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,400i,700,900');
 
 // @font-face { font-family: proxima_black; src: url(../fonts/Omnes_ATTW02-Italic.woff);}
-@font-face { font-family: omnes_light; src: url(../fonts/Omnes_ATTW02-Light.woff);}
-@font-face { font-family: omnes_medium; src: url(../fonts/Omnes_ATTW02-Medium.woff);}
-@font-face { font-family: omnes_medium-italic; src: url(../fonts/Omnes_ATTW02-MediumItalic.woff);}
+// @font-face { font-family: omnes_light; src: url(../fonts/Omnes_ATTW02-Light.woff);}
+// @font-face { font-family: omnes_medium; src: url(../fonts/Omnes_ATTW02-Medium.woff);}
+// @font-face { font-family: omnes_medium-italic; src: url(../fonts/Omnes_ATTW02-MediumItalic.woff);}
 @font-face { font-family: omnes_bold; src: url(../fonts/Omnes_ATTW02-Bold.woff);}
 @font-face { font-family: omnes_bold-italic; src: url(../fonts/OmnesATTW02-BoldItalic.woff);}
 
+@font-face { font-family: neutrif_reg; src: url(../fonts/neutrif-pro_regular.woff2);}
+// @font-face { font-family: neutrif_medium; src: url(../fonts/neutrif-pro-medium.woff2);}
+@font-face { font-family: neutrif_bold; src: url(../fonts/neutrif-pro-bold.woff2);}
+
+
+@font-face { font-family: graphik-light; src: url(../fonts/Graphik-300-Light.otf);}
+@font-face { font-family: graphik-regular; src: url(../fonts/Graphik-400-Regular.otf);}
 
 
 
 $font: omnes_bold, sans-serif;
-$body-font: 'Rubik', sans-serif;
+$body-font: graphik-regular, sans-serif;
+
+// $font: omnes_bold, sans-serif;
+// $body-font: 'Rubik', sans-serif;
 
 // $font: 'Rubik', sans-serif;
 // $body-font: 'Rubik', sans-serif;
@@ -47,13 +57,21 @@ li::selection, {
   background: $secondary-color;
 }
 
+// p {
+//   font-family: $body-font;
+//   font-weight: 300;
+//   hyphens: none;
+//   color: $font-color;
+//   font-size: 18px;
+//   line-height: 30px;
+// }
+
 p {
   font-family: $body-font;
-  font-weight: 300;
   hyphens: none;
   color: $font-color;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 28px;
 }
 
 a, li {
