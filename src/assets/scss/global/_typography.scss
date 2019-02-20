@@ -43,6 +43,9 @@ li::selection, {
   color: $black;
 }
 
+.text-bg {
+  background: $secondary-color;
+}
 
 p {
   font-family: $body-font;
