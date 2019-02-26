@@ -3,6 +3,13 @@ img {
     // border: 1px solid rgba($font-color, 0.10);
 }
 
+.img-row {
+    img {
+        width: 100%;
+        border: 1px solid rgba($font-color, 0.10);
+    }
+}
+
 .horizontal-ruler-thick,
 .horizontal-ruler-thin,
 .horizontal-ruler-thick-02,
