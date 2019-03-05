@@ -1,94 +1,6 @@
-
-// .manu-hero-wrapper {
-//     background: linear-gradient(135deg, #F54B64 0%,#e94444 100%);
-//     * {
-//         color: $white;
-//     }
-//     .bird-hero-img {
-//         text-align: center;
-//         img {
-//             width: 200px;
-//         }
-//     }
-// }
-
-// .manu-intro {
-//     margin-top: 90px;
-// }
-
-// // .manu-background,
-// // .manu-wireframe,
-// // .manu-wireframe-02,
-// // .manu-final-prototype,
-// // .manu-final {
-// //     padding: 60px 0;
-// // }
-
-
-// // Wireframes section
-// .manu-wireframe {
-//     // background: #F2F2F2;
-//     h5 {
-//         font-weight: 600;
-//         text-transform: uppercase;
-//         margin-bottom: 15px;
-//     }
-//     img {
-//         border: 1px solid rgba($black, 0.1);
-//     }
-//     .image-caption {
-//         margin-top: 5px;
-//         margin-bottom: 15px;
-//         font-size: 12px;
-//         font-family: $font;
-//         font-style: italic;
-//         font-weight: 600;
-//     }
-//     .manu-wireframe-onboarding {
-//         margin-bottom: 30px;
-//     }
-//     .wireframe-row {
-//         margin-bottom: 30px;
-//     }
-// }
-
-
-
-
-// .manu-mockups {
-//     padding: 60px 0;
-//     background: #F2F2F2;
-// }
-
-// .manu-image {
-//     margin-top: 60px;
-// }
-
-// // Last panel
-// .manu-final {
-//     h2 {
-//         color: $bird-main-color;
-//         margin-bottom: 30px;
-//     }
-//     aside {
-//         img {
-//             width: 250px;
-//             padding-left: 30px;
-//         }
-//     }
-//     .bird-final-content {
-//         display: flex;
-//         height: auto;
-//         align-items: center;
-//         padding-right: 30px;
-//     }
-// }
-
-
-
-
-
 $manu-color: #A1CCDD;
+$manu-color-02: #537ae7;
+$manu-bg-color: #e6effa;
 
 .manu-hero {
     background: $manu-color;
@@ -96,6 +8,63 @@ $manu-color: #A1CCDD;
         width: 250px;
     }
 }
+
+.manu-final-presentation {
+    background: lighten($manu-bg-color, 5);
+    padding: 60px 0px;
+    .manu-prototype-img {
+        padding: 30px;
+    }
+
+    .manu-prototype-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h1 {
+            font-size: 50px;
+            // text-transform: uppercase;
+            color: $manu-color-02;
+        }
+        p.lead-paragraph-large {
+            font-family: graphik-black, sans-serif;
+            font-size: 30px;
+        }
+        p:nth-of-type(2) {
+            color: lighten($font-color, 25);
+        }
+    }
+}
+
+@media screen and (min-width: 40em){
+    .manu-final-presentation {
+        .manu-prototype-img {
+            padding: 40px;
+        }
+    
+        .manu-prototype-content {
+            h1 {
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 64em){
+    .manu-final-presentation {
+        .manu-prototype-img {
+            // padding: 90px;
+            // padding-right: 120px;
+        }
+    
+        .manu-prototype-content {
+            // padding-right: 150px;
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
 
 
 

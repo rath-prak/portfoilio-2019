@@ -2,5 +2,8 @@ $primary-color: #082a61;
 $secondary-color:#fee333;
 $accent-color: $dark-gray;
 
-$font-color: #253045;
+// $font-color: #253045;
+$font-color:  lighten(#253045, 10);
 $white: #FEFEE6;
+
+

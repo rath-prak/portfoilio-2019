@@ -86,8 +86,16 @@
 // NEW Layout styles
 
 .content-wrapper {
-  padding: 90px 0px;
+  padding: 60px 15px;
 }
+
+@media screen and (min-width: 40em){
+  .content-wrapper {
+    padding: 90px 0px;
+  }
+}
+
+
 
 article {
   padding: 15px 0px;

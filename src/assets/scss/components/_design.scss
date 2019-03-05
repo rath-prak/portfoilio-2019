@@ -108,12 +108,10 @@ img {
 
 // Lead text for introduction paragraphs
 .lead-paragraph-large {
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 400;
     line-height: 1.4;
 }
-
-
 
 
 .lead-paragraph {
@@ -130,21 +128,6 @@ img {
     }
 }
 
-.lead-paragraph-02 {
-    margin-top: 30px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.6;
-    text-align: center;
-    font-family: 'Libre Baskerville', serif;
-    // color: $dark-gray;
-}
-
-@media screen and (min-width: 40em){
-    .lead-paragraph-02 {
-        font-size: 20px;
-    }
-}
 
 
 // Image overlay box
