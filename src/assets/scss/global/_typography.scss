@@ -40,7 +40,7 @@ li::selection, {
 p {
   font-family: $body-font;
   hyphens: none;
-  color: $font-color;
+  color:  lighten($font-color, 3);
   font-size: 18px;
   line-height: 28px;
 }
