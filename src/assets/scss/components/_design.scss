@@ -107,12 +107,24 @@ img {
 
 
 // Lead text for introduction paragraphs
+  
+.lead {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 40em) {
+    .lead {
+        font-size: 22px;
+        font-weight: 400;
+    } 
+}
+
 .lead-paragraph-large {
     font-size: 34px;
     font-weight: 400;
     line-height: 1.4;
 }
-
 
 .lead-paragraph {
     font-size: 18px;
@@ -227,30 +239,34 @@ img {
     text-decoration: underline;
 }
 
-.project-specs {
-    // font-weight: 600;
-    font-size: 20px;
-    font-family: omnes_bold-italic;
-    background: $secondary-color;
-}
+// .project-specs {
+//     // font-weight: 600;
+//     font-size: 20px;
+//     font-family: omnes_bold-italic;
+//     background: $secondary-color;
+// }
   
 /* HEADINGS */
 .heading-01 {
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
   
 // sub-headings
 .sub-heading-01,
-.sub-heading-02 {
+.sub-heading-02
+.sub-heading-03 {
+    margin-bottom: 30px;
+    color: rgba($font-color, 0.5) !important;
     display: inline-block;
     position: relative;  
+    font-family: $black-font;
     span:after { 
         content: "";
         position: absolute;
         left: 100%;
         margin-left: 5px;
         height: 2px;
-        background: $primary-color;
+        background: rgba($font-color, 0.5) !important;
         top: 50%;
         transform: translateY(-50%);
         width: 30px;
@@ -258,20 +274,22 @@ margin-bottom: 30px;
 }
 
 .sub-heading-02 {
-    margin-bottom: 15px;
-}
-  
-.lead {
-    font-size: 20px;
-    font-weight: 400;
+    color: $font-color !important;
+    span:after { 
+        content: "";
+        background: $font-color !important;
+    }
 }
 
-@media screen and (min-width: 40em){
-    .lead {
-        font-size: 22px;
-        font-weight: 400;
-    } 
+.sub-heading-03 {
+    color: $white !important;
+    span:after { 
+        content: "";
+        background: $white !important;
+    }
+    margin-bottom: 0px;
 }
+
 
 .image-caption {
     font-size: 14px;

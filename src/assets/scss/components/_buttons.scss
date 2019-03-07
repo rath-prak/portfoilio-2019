@@ -1,160 +1,210 @@
-/* BUTTONS */
-/* ------- */
+// /* BUTTONS */
+// /* ------- */
 
-%button-style {
-  color: $font-color;
-  text-decoration: none;
-  // text-transform: uppercase;
-  padding: 5px 0;
-  // border: 1px solid $font-color;
-  position: relative;
-  cursor: pointer;
-  transition: all 1s ease;
-  overflow: hidden;
-  display: inline-block;
-  z-index: 0;
-  font-weight: 500;
-}
+// %button-style {
+//   color: $font-color;
+//   text-decoration: none;
+//   // text-transform: uppercase;
+//   padding: 5px 0;
+//   // border: 1px solid $font-color;
+//   position: relative;
+//   cursor: pointer;
+//   transition: all 1s ease;
+//   overflow: hidden;
+//   display: inline-block;
+//   z-index: 0;
+//   font-weight: 500;
+// }
 
 
-.btn-primary:before {
-  content: "";
-  width: 100%;
-  height: 2px;
-  margin-top: 32px;
-  background-color: white;
-  position: absolute;
-  transition: all 0.5s ease;
-	z-index: -1;
- }
+// .btn-primary:before {
+//   content: "";
+//   width: 100%;
+//   height: 2px;
+//   margin-top: 32px;
+//   background-color: white;
+//   position: absolute;
+//   transition: all 0.5s ease;
+// 	z-index: -1;
+//  }
 
- .btn-primary:before {
-     top: 0;
-     left: -100%;
-   }
+//  .btn-primary:before {
+//      top: 0;
+//      left: -100%;
+//    }
 
-  .btn-primary:hover:before {
-     left: 0;
-  }
+//   .btn-primary:hover:before {
+//      left: 0;
+//   }
 
-/* PRIMARY BUTTON */
+// /* PRIMARY BUTTON */
 
-.btn-primary {
-  @extend %button-style;
-  color: $font-color;
-  // border-bottom: 1px solid $font-color;
-  img {
-    width: 20px;
-    margin: 0 0 3px 4px;
-  }
-}
+// .btn-primary {
+//   @extend %button-style;
+//   color: $font-color;
+//   // border-bottom: 1px solid $font-color;
+//   img {
+//     width: 20px;
+//     margin: 0 0 3px 4px;
+//   }
+// }
 
-.btn-primary:before {
-  background: $font-color;
-}
+// .btn-primary:before {
+//   background: $font-color;
+// }
 
-a.btn-primary:hover {
-    color: lighten($font-color, 10);
- }
+// a.btn-primary:hover {
+//     color: lighten($font-color, 10);
+//  }
 
- .btn-primary-02 {
-  @extend %button-style;
+//  .btn-primary-02 {
+//   @extend %button-style;
+//   background: $primary-color;
+//   padding: 10px 20px;
+//   color: $white;
+//   // margin-top: 10px;
+//  }
+
+//  .btn-primary-02:hover {
+//   background: lighten($primary-color, 15);
+//   color: $white;
+//  }
+
+//  .btn-primary-03 {
+//   @extend %button-style;
+//   background: $primary-color;
+//   padding: 15px 30px;
+//   color: $white;
+//   font-size: 20px;
+//   span {
+//     margin-left: 10px;
+//     img {
+//       width: 40px;
+//     }
+//   }
+//  }
+
+//  .btn-primary-03:hover {
+//   background: lighten($primary-color, 15);
+//   color: $white;
+//  }
+
+//  .btn-primary-large {
+//    margin-top: 60px;
+//    text-align: center;
+//  }
+
+
+//  .btn-secondary-03 {
+//     @extend %button-style;
+//     padding: 15px 30px;
+//     padding-left: 0px;
+//     color: $font-color;
+//     font-size: 20px;
+//     span {
+//       margin-left: 10px;
+//       img {
+//         width: 40px;
+//       }
+//     }
+//  }
+
+//  /* BUTTONS */
+// /* ------- */
+
+// .btn-secondary-03 {
+//   color: $font-color;
+//   text-decoration: none;
+//   padding: 5px 0;
+//   position: relative;
+//   cursor: pointer;
+//   transition: all 1s ease;
+//   overflow: hidden;
+//   display: inline-block;
+//   z-index: 0;
+//   font-size: 16px;
+//   font-weight: 600;
+//   span {
+//     img {
+//       width: 25px;
+//     }
+//   }
+// }
+
+// .btn-secondary-03:hover {
+//   color: $font-color;
+// }
+
+// .btn-secondary-03:before {
+//   content: "";
+//   width: 100%;
+//   height: 2px;
+//   margin-top: 32px;
+//   background-color: white;
+//   position: absolute;
+//   transition: all 1s ease;
+// 	z-index: -1;
+//  }
+
+// .btn-secondary-03:before {
+//     top: 0;
+//     left: -100%;
+//   }
+
+// .btn-secondary-03:hover:before {
+//     left: 0;
+// }
+
+// .btn-secondary-03:before {
+//   background: $font-color;
+// }
+
+
+.btn-primary,
+.btn-primary-sm {
+  margin-top: 10px;
+  // display: inline-block;
+  display: inline !important;
   background: $primary-color;
-  padding: 10px 20px;
+  // background: $accent-color;
+  padding: 10px 40px;
   color: $white;
-  // margin-top: 10px;
- }
+  transition: background 0.5s;
+  // border-radius: 5px;
+}
 
- .btn-primary-02:hover {
-  background: lighten($primary-color, 15);
+.btn-primary:hover,
+.btn-primary-sm:hover {
+  background: darken($primary-color, 10);
   color: $white;
- }
+}
 
- .btn-primary-03 {
-  @extend %button-style;
-  background: $primary-color;
-  padding: 15px 30px;
-  color: $white;
-  font-size: 20px;
-  span {
-    margin-left: 10px;
-    img {
-      width: 40px;
-    }
-  }
- }
-
- .btn-primary-03:hover {
-  background: lighten($primary-color, 15);
-  color: $white;
- }
-
- .btn-primary-large {
-   margin-top: 60px;
-   text-align: center;
- }
-
-
- .btn-secondary-03 {
-    @extend %button-style;
-    padding: 15px 30px;
-    padding-left: 0px;
-    color: $font-color;
-    font-size: 20px;
-    span {
-      margin-left: 10px;
-      img {
-        width: 40px;
-      }
-    }
- }
-
- /* BUTTONS */
-/* ------- */
-
-.btn-secondary-03 {
-  color: $font-color;
-  text-decoration: none;
-  padding: 5px 0;
-  position: relative;
-  cursor: pointer;
-  transition: all 1s ease;
-  overflow: hidden;
-  display: inline-block;
-  z-index: 0;
+.btn-primary-sm {
+  padding: 15px 40px;
   font-size: 16px;
-  font-weight: 600;
-  span {
-    img {
-      width: 25px;
-    }
+  text-transform: inherit;
+  font-weight: 400;
+  border-radius: 40px;
+  a {
+    margin-bottom: 0px;
   }
 }
 
-.btn-secondary-03:hover {
-  color: $font-color;
-}
-
-.btn-secondary-03:before {
-  content: "";
+/* Explore button */
+.explore-btn {
   width: 100%;
-  height: 2px;
-  margin-top: 32px;
-  background-color: white;
-  position: absolute;
-  transition: all 1s ease;
-	z-index: -1;
- }
-
-.btn-secondary-03:before {
-    top: 0;
-    left: -100%;
-  }
-
-.btn-secondary-03:hover:before {
-    left: 0;
+  display: block;
+  padding: 20px;
+  background: $accent-color;
+  color: $white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  transition: background 0.5s;
 }
 
-.btn-secondary-03:before {
-  background: $font-color;
+.explore-btn:hover {
+  background: darken($accent-color, 5);
+  color: $white;
 }
