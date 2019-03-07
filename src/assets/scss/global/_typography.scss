@@ -1,5 +1,5 @@
-@font-face { font-family: omnes_bold; src: url(../fonts/Omnes_ATTW02-Bold.woff);}
-@font-face { font-family: omnes_bold-italic; src: url(../fonts/OmnesATTW02-BoldItalic.woff);}
+// @font-face { font-family: omnes_bold; src: url(../fonts/Omnes_ATTW02-Bold.woff);}
+// @font-face { font-family: omnes_bold-italic; src: url(../fonts/OmnesATTW02-BoldItalic.woff);}
 
 @font-face { font-family: graphik-light; src: url(../fonts/Graphik-300-Light.otf);}
 @font-face { font-family: graphik-regular; src: url(../fonts/Graphik-400-Regular.otf);}
@@ -10,6 +10,9 @@
 
 $heading-font: graphik-bold, sans-serif;
 $body-font: graphik-regular, sans-serif;
+
+$bold-font: graphik-bold, sans-serif;
+$black-font: graphik-black, sans-serif;
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
@@ -50,4 +53,7 @@ a, li {
   color: $font-color;
 }
 
+.light-color {
+  color: $font-color-light;
+}
 
