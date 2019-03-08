@@ -74,6 +74,14 @@ $xera-color: #5073e1;
     }
 }
 
+.xera-project-dashboard {
+    .project-section-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 
 // Platform
 .xera-platform {
