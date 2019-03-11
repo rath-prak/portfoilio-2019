@@ -11,7 +11,8 @@
 //     padding: 90px 0px;
 // }
 
-$xera-color: #5073e1;
+$xera-color: #3693C9;
+// $xera-color: #5073e1;
 // $xera-color: #2a4969;
 // $xera-color: #2b56f5;
 
@@ -98,10 +99,35 @@ $xera-color: #5073e1;
         height: 100%;
         width: 30%;
         // background: rgba($font-color, 0.05);
-        background: $xera-color;
+        background: rgba($xera-color, 0.05);
+        // background: $xera-color;
         position: absolute;
         right: 0;
         z-index: 1;  
         bottom: 0px;
+    }
+}
+
+// Xera styles
+.xera-styles {
+    img {
+        width: 100%;
+    }
+    .xera-typeface {
+        // border-right: none;
+        margin-bottom: 60px;
+        .typeface-intro {
+            padding-right: 30px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 64em){
+    .xera-styles {
+        .xera-typeface {
+            margin-bottom: 60px;
+            border-right: 1px solid rgba($font-color, 0.15);
+        }
     }
 }

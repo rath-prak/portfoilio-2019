@@ -10,6 +10,13 @@ img {
     }
 }
 
+.fw-img {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
 .horizontal-ruler-thick,
 .horizontal-ruler-thin,
 .horizontal-ruler-thick-02,
@@ -253,8 +260,9 @@ img {
   
 // sub-headings
 .sub-heading-01,
-.sub-heading-02
-.sub-heading-03 {
+.sub-heading-02,
+.sub-heading-03,
+.sub-heading-04 {
     margin-bottom: 30px;
     color: rgba($font-color, 0.5) !important;
     display: inline-block;
@@ -288,6 +296,10 @@ img {
         background: $white !important;
     }
     margin-bottom: 0px;
+}
+
+.sub-heading-04 {
+    margin-bottom: 60px;
 }
 
 
