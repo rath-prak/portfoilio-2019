@@ -1,7 +1,9 @@
 $nos-color: red;
 
-.nos-intro-wrapper {
-    background: lighten(#EDEBF3, 5);
+.nos-hero-wrapper {
+    // background: lighten(#EDEBF3, 5);
+    background: url(../img/portfolio-items/nos/nos-hero-temp.jpg) center center no-repeat;
+    background-size:  cover;
     position: relative;
     .nos-hero-content {
         display: flex;
@@ -13,3 +15,4 @@ $nos-color: red;
         width: 650px;
     }
 }
+
