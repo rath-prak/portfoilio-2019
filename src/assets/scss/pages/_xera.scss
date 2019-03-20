@@ -65,7 +65,7 @@ $xera-color: #3693C9;
 // Intro section
 .xera-project-intro {
     .intro-solid {
-        background: $xera-color;
+        background: rgba($xera-color, 0.1);
     }
     .intro-content {
         padding: 90px;
@@ -83,7 +83,10 @@ $xera-color: #3693C9;
     }
 }
 
-
+.xera-screens {
+    background: #F7F8F9;
+}
+ 
 // Platform
 .xera-platform {
     background: #F7F8F9;
