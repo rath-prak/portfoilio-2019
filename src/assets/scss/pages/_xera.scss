@@ -12,10 +12,6 @@
 // }
 
 $xera-color: #3693C9;
-// $xera-color: #5073e1;
-// $xera-color: #2a4969;
-// $xera-color: #2b56f5;
-
 .xera-wrapper {
     background: #f2f3f7;
 }
@@ -27,7 +23,6 @@ $xera-color: #3693C9;
 // Xera hero section
 .xera-hero {
     position: relative;
-    // background: lighten($xera-color, 35);
     background: rgba($font-color, 0.01);
     .project-tag {
         font-family: $bold-font;
@@ -55,7 +50,6 @@ $xera-color: #3693C9;
 .bg-solid {
     height: 100vh;
     width: 30%;
-    // background: lighten($xera-color, 30);
     background: rgba($font-color, 0.02);
     position: absolute;
     right: 0;
@@ -75,50 +69,42 @@ $xera-color: #3693C9;
     }
 }
 
-.xera-project-dashboard {
-    .project-section-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+// Dashboard
+.xera-dashboard {
+    padding: 90px 0px;
+    // background: $xera-gradient;
+    background: darken(#1B314D, 5);
+    position: relative;
+    .dashboard-img {
+        z-index: 10;
+    }
+    .dashboard-solid-bg {
+        height: 100%;
+        width: 30%;
+        // background: rgba($white, 0.02);
+        background: darken(#1B314D, 8);
+        position: absolute;
+        right: 0;
+        z-index: 0;  
+        bottom: 0px;
     }
 }
 
 .xera-screens {
     background: #F7F8F9;
 }
- 
-// Platform
-.xera-platform {
-    background: #F7F8F9;
-    position: relative;
-    .platform-content,
-    .platform-img {
-        z-index: 100;
-    }
-    .platform-content {
-        margin-bottom: 30px;
-    }
-    .platform-solid-bg {
-        height: 100%;
-        width: 30%;
-        // background: rgba($font-color, 0.05);
-        background: rgba($xera-color, 0.05);
-        // background: $xera-color;
-        position: absolute;
-        right: 0;
-        z-index: 1;  
-        bottom: 0px;
-    }
-}
 
 // Xera styles
 .xera-styles {
+    padding: 120px 0px;
+    background: darken(#1B314D, 10);
+    * {
+        color: $white;
+    }
     img {
         width: 100%;
     }
     .xera-typeface {
-        // border-right: none;
-        margin-bottom: 60px;
         .typeface-intro {
             padding-right: 30px;
             margin-bottom: 20px;
@@ -129,8 +115,67 @@ $xera-color: #3693C9;
 @media screen and (min-width: 64em){
     .xera-styles {
         .xera-typeface {
-            margin-bottom: 60px;
             border-right: 1px solid rgba($font-color, 0.15);
         }
     }
+}
+ 
+// Platform
+.xera-platform {
+    // background: $xera-gradient;
+    background: darken(#1B314D, 5);
+    position: relative;
+    padding: 120px 0px;
+    padding-bottom: 150px;
+    .platform-content,
+    .platform-img {
+        z-index: 10;
+    }
+    .platform-solid-bg {
+        height: 100%;
+        width: 30%;
+        // background: rgba($white, 0.02);
+        background: darken(#1B314D, 8);
+        position: absolute;
+        right: 0;
+        z-index: 1;  
+        bottom: 0px;
+    }
+    .background-img {
+        position: absolute;
+        bottom: 0;
+        img {
+            width: 100%;
+            opacity: 0.25;
+        }
+    }
+}
+
+
+// Heading
+
+.xera-heading {
+    color: rgba($white, 0.25);
+    display: inline-block;
+    position: relative;  
+    font-family: $black-font;
+    margin-left: 50px;
+    margin-bottom: 90px;
+    span::before { 
+        content: "";
+        position: absolute;
+        left: -50px;
+        height: 30px;
+        background: #39C2D3;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 2px;
+    }
+}
+
+
+// Xera footer 
+.xera-footer {
+    // background: darken(#202b41, 4);
+    background: darken(#1B314D, 9);   
 }
