@@ -58,11 +58,14 @@ $xera-color: #3693C9;
 
 // Intro section
 .xera-project-intro {
+    background: darken(#1B314D, 10);
     .intro-solid {
         background: rgba($xera-color, 0.1);
     }
     .intro-content {
-        padding: 90px;
+        * {
+            color: $white;
+        }
         h2 {
             margin-bottom: 30px;
         }

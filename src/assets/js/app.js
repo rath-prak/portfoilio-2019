@@ -3,7 +3,7 @@ import whatInput from 'what-input';
 import { TweenMax, Power2, TimelineLite } from "gsap";
 
 import navigation from './lib/navigation';
-import navAutoHide from './lib/navAutoHide';
+// import navAutoHide from './lib/navAutoHide';
 import menuUnderline from './lib/menuUnderline';
 
 window.$ = $;

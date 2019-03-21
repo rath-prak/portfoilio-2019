@@ -1,7 +1,7 @@
 .nav-wrapper {
-  position: fixed;
+  position: absolute;
   width: 100%;
-  z-index: 100;
+  z-index: 1000;
   height: 80px;
   // background: $primary-color;
 }
@@ -12,7 +12,9 @@
 }
 
 .add-background {
-  background: $primary-color;
+  // background: $primary-color;
+  background: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.15);
   a:hover {
     color: green;
   }
