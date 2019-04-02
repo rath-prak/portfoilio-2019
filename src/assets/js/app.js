@@ -35,10 +35,9 @@ $(document).ready(function(){
     draggable: true,
     arrows: true,
     dots: true,
-    fade: true,
     autoplay: true,
     autoplaySpeed: 2500,
-    speed: 2000,
+    speed: 1500,
     infinite: true,
     cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
     touchThreshold: 100
