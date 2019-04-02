@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import whatInput from 'what-input';
 import { TweenMax, Power2, TimelineLite } from "gsap";
+import slick from 'slick-carousel';
 
 import navigation from './lib/navigation';
 // import navAutoHide from './lib/navAutoHide';
@@ -16,7 +17,7 @@ $(document).ready(function(){
   // Slide in navigation & hamburger toggle
   navigation();
   // Auto hide navigation
-  navAutoHide();
+  // navAutoHide();
 
   //Active link to current page
   let path = window.location.pathname.split('/').pop();
@@ -28,6 +29,20 @@ $(document).ready(function(){
   let targetFooterMenu = $('.footer-menu a[href="'+path+'"]');
   target.addClass('active');
   targetFooterMenu.addClass('active');
+
+  // Slick
+  $('.slide-wrapper').slick({
+    draggable: true,
+    arrows: true,
+    dots: true,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    speed: 2000,
+    infinite: true,
+    cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+    touchThreshold: 100
+  });
 
 
 });
