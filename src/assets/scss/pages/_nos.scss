@@ -16,6 +16,19 @@ $nos-color: red;
     }
 }
 
-// .nos-wrapper {
-//     background: #79B946;
-// }
+
+// NOS background circle
+.nos-screens {
+    position: relative;
+    .nos-bg-circle {
+        width: 50%;
+        position: absolute;
+        z-index: -1;
+        right: -10%;
+        top: -10%;
+    }
+}
+
+.nos-wallet-wrapper {
+    background: $light-gray;
+}
