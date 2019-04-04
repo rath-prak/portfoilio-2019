@@ -1,21 +1,21 @@
 
 /* FULL PAGE HEADER IMAGE */
 
-// section {
-//   padding: 90px 0px;
-// }
+section {
+  padding: 0px 15px;
+}
 
-// @media screen and (min-width: 40em){
-//   section {
-//     padding: 30px 15px;
-//   }
-// }
+@media screen and (min-width: 40em){
+  section {
+    padding: 0px 15px;
+  }
+}
 
-// @media screen and (min-width: 64em) {
-//   section {
-//     padding: 0px;
-//   }
-// }
+@media screen and (min-width: 64em) {
+  section {
+    padding: 0px;
+  }
+}
 
 .fp-header {
   position: relative;

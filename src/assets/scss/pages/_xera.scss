@@ -1,24 +1,8 @@
-// .xera-hero {
-//     // background: #0f1a2c;
-//     background: linear-gradient(135deg, #394762 0%,#141f33 100%);
-//     // background: linear-gradient(135deg, #1b1c3f 0%,#212347 100%);
-//     * {
-//         color: rgba($white, $alpha: 0.8);
-//     }
-// }
-
-// .xera-hero {
-//     background: darken(#1B314D, 5);
-//     * {
-//         color: $white;
-//     }
-// }
-
-$xera-color: #3693C9;
-
+$xera-color: #39C2D3;
 
 .project-section {
-    padding: 90px 0px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 // Xera hero section
@@ -38,8 +22,9 @@ $xera-color: #3693C9;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    // opacity: 0.6;
     h1 {
-        color: $xera-color;
+        color: $white;
     }
 }
 
@@ -77,8 +62,6 @@ $xera-color: #3693C9;
 
 // Dashboard
 .xera-dashboard {
-    padding: 90px 0px;
-    // background: $xera-gradient;
     background: darken(#1B314D, 5);
     position: relative;
     .dashboard-img {
@@ -87,7 +70,6 @@ $xera-color: #3693C9;
     .dashboard-solid-bg {
         height: 100%;
         width: 30%;
-        // background: rgba($white, 0.02);
         background: darken(#1B314D, 8);
         position: absolute;
         right: 0;
@@ -102,7 +84,8 @@ $xera-color: #3693C9;
 
 // Xera styles
 .xera-styles {
-    padding: 120px 0px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: darken(#1B314D, 10);
     * {
         color: $white;
@@ -117,21 +100,13 @@ $xera-color: #3693C9;
         }
     }
 }
-
-// @media screen and (min-width: 64em){
-//     .xera-styles {
-//         .xera-typeface {
-//             border-right: 1px solid rgba($font-color, 0.75);
-//         }
-//     }
-// }
  
 // Platform
 .xera-platform {
     // background: $xera-gradient;
     background: darken(#1B314D, 5);
     position: relative;
-    padding: 120px 0px;
+    padding-top: 120px;
     padding-bottom: 150px;
     .platform-content,
     .platform-img {
@@ -140,7 +115,6 @@ $xera-color: #3693C9;
     .platform-solid-bg {
         height: 100%;
         width: 30%;
-        // background: rgba($white, 0.02);
         background: darken(#1B314D, 8);
         position: absolute;
         right: 0;
@@ -164,15 +138,15 @@ $xera-color: #3693C9;
     color: rgba($white, 0.25);
     display: inline-block;
     position: relative;  
-    font-family: $black-font;
+    font-family: $bold-font;
     margin-left: 50px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     span::before { 
         content: "";
         position: absolute;
         left: -50px;
         height: 30px;
-        background: #39C2D3;
+        background: $xera-color;
         top: 50%;
         transform: translateY(-50%);
         width: 2px;
@@ -182,6 +156,5 @@ $xera-color: #3693C9;
 
 // Xera footer 
 .xera-footer {
-    // background: darken(#202b41, 4);
     background: darken(#1B314D, 9);   
 }
