@@ -2,13 +2,8 @@
 <g clip-path="url(#clip0)">
 <rect width="1146" height="1146" fill="white"/>
 <circle cx="572.5" cy="572.5" r="571.956" transform="rotate(29.2734 572.5 572.5)" fill="#5BBA47" fill-opacity="0.15"/>
-<circle cx="572.5" cy="572.5" r="202.5" transform="rotate(29.2734 572.5 572.5)" fill="url(#paint0_linear)"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear" x1="370" y1="775" x2="775" y2="775" gradientUnits="userSpaceOnUse">
-<stop stop-color="#B9D532"/>
-<stop offset="1" stop-color="#5BBA47"/>
-</linearGradient>
 <clipPath id="clip0">
 <rect width="1146" height="1146" fill="white"/>
 </clipPath>
