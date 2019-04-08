@@ -1,4 +1,9 @@
 $nos-color: red;
+$nos-bg-color: #ecf0f1;
+
+.nos-wrapper {
+    background: lighten(#ecf0f1, $amount: 10);
+}
 
 .nos-hero-wrapper {
     // background: lighten(#EDEBF3, 5);
