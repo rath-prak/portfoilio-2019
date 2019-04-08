@@ -35,5 +35,30 @@ $nos-bg-color: #ecf0f1;
 }
 
 .nos-wallet-wrapper {
-    background: $light-gray;
+    background: #eaeeef;
+    padding: 250px 0px 90px 0px;
+}
+
+.nos-wallet-discription {
+    margin-bottom: 60px;
+}
+
+
+
+// Slick
+.slick-prev:before, .slick-next:before {
+    color: $font-color;
+    font-size: 25px;
+    opacity: 0.25;
+    display: none;
+}
+
+.slick-prev:before {
+    margin-left: -5px;
+}
+
+@media screen and (min-width: 40em){
+    .slick-prev:before, .slick-next:before {
+        display: block;
+    }
 }

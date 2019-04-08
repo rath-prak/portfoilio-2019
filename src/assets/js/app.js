@@ -35,7 +35,7 @@ $(document).ready(function(){
     draggable: true,
     arrows: true,
     dots: true,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2500,
     speed: 1500,
     infinite: true,
