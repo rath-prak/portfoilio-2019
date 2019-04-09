@@ -23,25 +23,43 @@ $nos-bg-color: #ecf0f1;
 }
 
 
-// NOS background circle
-.nos-screens {
-    position: relative;
-    .nos-bg-circle {
-        width: 50%;
-        position: absolute;
-        z-index: -1;
-        right: -10%;
-        top: -10%;
-    }
-}
-
 .nos-wallet-wrapper {
     background: #eaeeef;
-    padding: 250px 0px 90px 0px;
+    padding: 200px 0px 90px 0px;
+    position: relative;
+    .nos-wallet-type {
+        position: absolute;
+        width: 100%;
+        top: 120px;
+        opacity: 0.03;
+    }
 }
 
 .nos-wallet-discription {
     margin-bottom: 60px;
+    p {
+        font-size: 16px;
+    }
+}
+
+// slides
+.slide {
+    .slide-caption {
+        margin-bottom: 20px;
+        p:nth-of-type(1) {
+            font-size: 16px;
+            font-family: $bold-font;
+            margin-bottom: 0px;
+            span {
+                font-family: $black-font;
+                opacity: 0.5;
+            }
+        }
+        p:nth-of-type(2) {
+            font-size: 16px;
+            opacity: 0.75;
+        }
+    }
 }
 
 
