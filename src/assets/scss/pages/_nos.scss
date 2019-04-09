@@ -33,6 +33,15 @@ $nos-bg-color: #ecf0f1;
         top: 120px;
         opacity: 0.03;
     }
+    .vertical-line {
+        position: absolute;
+        top: 0;
+        left: 22%;
+        height: 100%;
+        width: 1px;
+        background: $font-color;
+        opacity: 0.05;
+    }
 }
 
 .nos-wallet-discription {
