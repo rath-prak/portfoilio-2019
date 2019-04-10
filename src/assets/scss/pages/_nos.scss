@@ -64,20 +64,45 @@ $nos-gradient: linear-gradient(270deg, #9DCC49 0%, #429321 100%);
     }
 }
 
+// projects screens
+.nos-screens-wrapper {
+    position: relative;
+    .fw-img {
+        z-index: 2000 !important;
+    }    
+}
 
+// project screen captions
+.screen-caption {
+    margin-bottom: 20px;
+    p {
+        font-size: 16px;
+    }
+    p:nth-of-type(1) {
+        font-family: $bold-font;
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+}
 
 
 //Dapp explorer
-.nos-explorer {
+.nos-login,
+.nos-explorer,
+.nos-settings {
     position: relative;
     img {
         z-index: 1000;
     }
-    .dapp-type {
-        position: absolute;
-        opacity: 0.07;
-        top: 120px;
-        left: -110px;
+}
+
+.nos-side-type {
+    position: absolute;
+    opacity: 0.10;
+    top: 300px;
+    left: -40px;
+    img {
+        width: 25%;
     }
 }
 
@@ -170,4 +195,14 @@ $nos-gradient: linear-gradient(270deg, #9DCC49 0%, #429321 100%);
     width: 1px;
     background: $font-color;
     opacity: 0.05;
+}
+
+.vertical-line-02 {
+    position: absolute;
+    top: 0;
+    right: 22%;
+    height: 100%;
+    width: 1px;
+    background: $font-color;
+    opacity: 0.09;
 }
