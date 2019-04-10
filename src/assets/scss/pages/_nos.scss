@@ -7,25 +7,74 @@ $nos-bg-color: #ecf0f1;
 }
 
 .nos-hero-wrapper {
-    // background: lighten(#EDEBF3, 5);
-    background: url(../img/portfolio-items/nos/nos-hero-temp.jpg) center center no-repeat;
-    background-size:  cover;
+    background: #0b3c77;
     position: relative;
     .nos-hero-content {
         display: flex;
         align-items: center;
         flex-direction: column;
+        position: relative;
+        z-index: 1000;
+        .design-tags {
+            font-family: $bold-font;
+            opacity: 0.75;
+        }
+        h2 {
+            font-family: $bold-font;
+        }
+        .lead-paragraph {
+            font-family: $light-font;
+        }
+        .hero-img {
+            margin-top: 30px;
+            max-width: 600px;
+        }
+
     }
+    .hero-bg-type,
+    .nos-type {
+        position: absolute;
+        top: 150px;
+        opacity: 0.05;
+        img {
+            width: 100%;
+        }
+    }
+    .nos-type {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 64em){
+    .nos-hero-wrapper {
+        .nos-hero-content {
+            .hero-img {
+                margin-top: 30px;
+                max-width: 700px;
+            }
+        }
+    }
+}
+
+//Dapp explorer
+.nos-explorer {
+    position: relative;
     img {
-        margin-top: 30px;
-        width: 650px;
+        z-index: 1000;
+    }
+    .dapp-type {
+        position: absolute;
+        opacity: 0.07;
+        top: 120px;
+        left: -110px;
     }
 }
 
 
+// Nos Wallet
 .nos-wallet-wrapper {
     background: #eaeeef;
-    padding: 200px 0px 90px 0px;
+    padding: 200px 15px 90px 15px;
     position: relative;
     .nos-wallet-type {
         position: absolute;
@@ -44,15 +93,29 @@ $nos-bg-color: #ecf0f1;
     }
 }
 
+@media screen and (min-width: 40em){
+    .nos-wallet-wrapper {
+        padding: 200px 0px 90px 0px;
+    }
+}
+
 .nos-wallet-discription {
     margin-bottom: 60px;
+    z-index: 1000;
     p {
         font-size: 16px;
     }
 }
 
 // slides
+.slide-wrapper {
+    z-index: 2000 !important;
+}
+
 .slide {
+    img {
+        padding: 0px 20px;
+    }
     .slide-caption {
         margin-bottom: 20px;
         p:nth-of-type(1) {
@@ -60,13 +123,14 @@ $nos-bg-color: #ecf0f1;
             font-family: $bold-font;
             margin-bottom: 0px;
             span {
-                font-family: $black-font;
+                font-family: $bold-font;
                 opacity: 0.5;
             }
         }
         p:nth-of-type(2) {
-            font-size: 16px;
+            font-size: 15px;
             opacity: 0.75;
+            // font-style: italic;
         }
     }
 }
@@ -77,7 +141,7 @@ $nos-bg-color: #ecf0f1;
 .slick-prev:before, .slick-next:before {
     color: $font-color;
     font-size: 25px;
-    opacity: 0.25;
+    opacity: 0.15;
     display: none;
 }
 

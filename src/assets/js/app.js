@@ -36,7 +36,7 @@ $(document).ready(function(){
     arrows: true,
     dots: true,
     // autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 3500,
     speed: 1500,
     infinite: true,
     cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
