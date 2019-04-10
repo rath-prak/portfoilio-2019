@@ -1,5 +1,5 @@
-$nos-color: red;
 $nos-bg-color: #ecf0f1;
+$nos-gradient: linear-gradient(270deg, #9DCC49 0%, #429321 100%);
 
 .nos-wrapper {
     background: lighten(#ecf0f1, $amount: 10);
@@ -10,51 +10,62 @@ $nos-bg-color: #ecf0f1;
     background: #0b3c77;
     position: relative;
     .nos-hero-content {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
         position: relative;
         z-index: 1000;
         .design-tags {
             font-family: $bold-font;
-            opacity: 0.75;
+            opacity: 1;
         }
         h2 {
             font-family: $bold-font;
+            opacity: 0.5;
         }
         .lead-paragraph {
             font-family: $light-font;
         }
-        .hero-img {
-            margin-top: 30px;
-            max-width: 600px;
+        .nos-hero-img {
+            margin-top: 15px;
         }
 
     }
     .hero-bg-type,
     .nos-type {
         position: absolute;
-        top: 150px;
+        top: 110px;
         opacity: 0.05;
         img {
             width: 100%;
         }
     }
     .nos-type {
-        width: 60%;
+        width: 40%;
     }
 }
 
 @media screen and (min-width: 64em){
     .nos-hero-wrapper {
         .nos-hero-content {
-            .hero-img {
-                margin-top: 30px;
-                max-width: 700px;
-            }
+            margin-top: 90px;
         }
     }
 }
+
+
+// nOS introduction section
+.nos-intro {
+    background: #eaeeef;
+    position: relative;
+    .nos-project-type {
+        position: absolute;
+        width: 100%;
+        top: 120px;
+        left: -35%;
+        opacity: 0.03;
+    }
+}
+
+
+
 
 //Dapp explorer
 .nos-explorer {
@@ -81,15 +92,6 @@ $nos-bg-color: #ecf0f1;
         width: 100%;
         top: 120px;
         opacity: 0.03;
-    }
-    .vertical-line {
-        position: absolute;
-        top: 0;
-        left: 22%;
-        height: 100%;
-        width: 1px;
-        background: $font-color;
-        opacity: 0.05;
     }
 }
 
@@ -153,4 +155,19 @@ $nos-bg-color: #ecf0f1;
     .slick-prev:before, .slick-next:before {
         display: block;
     }
+}
+
+.slick-dots {
+    opacity: 0.5;
+}
+
+// vertical lines design
+.vertical-line {
+    position: absolute;
+    top: 0;
+    left: 22%;
+    height: 100%;
+    width: 1px;
+    background: $font-color;
+    opacity: 0.05;
 }
