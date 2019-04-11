@@ -23,7 +23,7 @@ $(document).ready(function(){
 
  let nosCircle = document.getElementById('nos-circle')
 
-  TweenMax.to(nosCircle, 3, { 
+  TweenMax.to(nosCircle, 2.5, { 
       rotation:"360", 
       ease:Linear.easeNone, 
       repeat:-1,
