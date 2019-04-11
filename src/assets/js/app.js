@@ -19,16 +19,16 @@ $(document).ready(function(){
   // Auto hide navigation
   // navAutoHide();
 
-  //Active link to current page
-  let path = window.location.pathname.split('/').pop();
-  if (path == '') {
-    path = 'index.html';
-  }
+  //nOS circle infinate rotate
 
-  let target = $('nav a[href="'+path+'"]');
-  let targetFooterMenu = $('.footer-menu a[href="'+path+'"]');
-  target.addClass('active');
-  targetFooterMenu.addClass('active');
+ let nosCircle = document.getElementById('nos-circle')
+
+  TweenMax.to(nosCircle, 3, { 
+      rotation:"360", 
+      ease:Linear.easeNone, 
+      repeat:-1,
+    });
+
 
   // Slick
   $('.slide-wrapper').slick({

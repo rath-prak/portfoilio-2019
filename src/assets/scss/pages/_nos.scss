@@ -24,7 +24,8 @@ $nos-gradient: linear-gradient(270deg, #9DCC49 0%, #429321 100%);
             font-family: $light-font;
         }
         .nos-hero-img {
-            margin-top: 15px;
+            max-width: 250px;
+            margin: 15px auto;
         }
 
     }
@@ -61,6 +62,18 @@ $nos-gradient: linear-gradient(270deg, #9DCC49 0%, #429321 100%);
         top: 120px;
         left: -35%;
         opacity: 0.03;
+    }
+    .nos-project-intro {
+        z-index: 1000;
+    }
+}
+
+@media screen and (min-width: 1200px ){
+    .nos-intro { 
+        .nos-project-type {
+            width: 90%;
+            top: 90px;
+        }
     }
 }
 
