@@ -22,11 +22,30 @@
 
 .technical-skills {
     margin-top: 60px;
+    h5 {
+        font-family: $semibold-font;  
+    }
+    p {
+        font-size: 16px;
+        span {
+            font-family: $semibold-font;
+        }
+    }
     .horizontal-ruler-thick {
         margin-top: 5px;
     }
 }
 
+.peach-img {
+    margin-top: 20px;
+    // width: 50px;
+    margin: 0 auto;
+    // display: flex;
+    img {
+        width: 50px;
+        padding: 0 5px;
+    }
+}
 
 
 
