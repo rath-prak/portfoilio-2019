@@ -11,11 +11,10 @@
 
 $light-font: graphik-light, sans-serif;
 $body-font: graphik-regular, sans-serif;
-// $medium-font: graphik-medium, sans-serif;
-$semibold-font: graphik-semibold, sans-serif;
-
+$medium-font: graphik-semibold, sans-serif;
 $bold-font: graphik-bold, sans-serif;
 $black-font: graphik-black, sans-serif;
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $bold-font;
@@ -62,5 +61,17 @@ a, li {
 
 .text-sm {
     font-size: 16px;
+}
+
+.text-light {
+  font-family: $medium-font;
+}
+
+.text-medium {
+  font-family: $bold-font;
+}
+
+.text-bold {
+  font-family: $bold-font;
 }
 
