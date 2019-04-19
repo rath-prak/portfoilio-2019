@@ -33,7 +33,8 @@ h5::selection,
 h6::selection,
 p::selection,
 a::selection,
-li::selection {
+li::selection,
+span::selection {
   background: $secondary-color;
   color: $black;
 }
@@ -64,7 +65,7 @@ a, li {
 }
 
 .text-light {
-  font-family: $medium-font;
+  font-family: $light-font;
 }
 
 .text-medium {

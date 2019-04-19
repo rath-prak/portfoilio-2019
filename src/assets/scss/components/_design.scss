@@ -306,18 +306,16 @@ img {
 .sub-heading-02,
 .sub-heading-03,
 .sub-heading-04 {
-    margin-bottom: 30px;
-    // color: rgba($font-color, 0.5) !important;
+    margin-bottom: 20px;
     display: inline-block;
     position: relative;  
-    font-family: $bold-font;
+    font-family: $medium-font;
     span:after { 
         content: "";
         position: absolute;
         left: 100%;
         margin-left: 5px;
         height: 2px;
-        // background: rgba($font-color, 0.5) !important;
         top: 50%;
         transform: translateY(-50%);
         width: 30px;
@@ -325,7 +323,6 @@ img {
 }
 
 .sub-heading-02 {
-    // color: $font-color !important;
     span:after { 
         content: "";
         background: $font-color !important;
@@ -333,7 +330,6 @@ img {
 }
 
 .sub-heading-03 {
-    // color: $white !important;
     span:after { 
         content: "";
         background: $white !important;
@@ -359,8 +355,6 @@ img {
 .para-side-block {
     display: inline-block;
     position: relative;  
-    // margin-left: 50px;
-    // margin-bottom: 60px;
     span::before { 
         content: "";
         position: absolute;
