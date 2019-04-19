@@ -353,3 +353,22 @@ img {
     margin-top: 5px;
     color: rgba($font-color, 0.75);
 }
+
+// Paragraph side block decoration
+
+.para-side-block {
+    display: inline-block;
+    position: relative;  
+    // margin-left: 50px;
+    // margin-bottom: 60px;
+    span::before { 
+        content: "";
+        position: absolute;
+        left: -20px;
+        height: 100%;
+        background: $font-color;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 2px;
+    }
+}

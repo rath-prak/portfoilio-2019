@@ -9,16 +9,37 @@
     align-items: center;
     justify-content: center;   
 }
+
+.about-banner-img {
+    margin-top: 90px;
+    p {
+        text-align: right;
+        font-size: 11px;
+        span {
+            font-family: $medium-font;
+        }
+    }
+}
+
+.about-banner-intro {
+    padding: 30px;
+    background: #fff;
+    margin-top: -90px;
+    h2 {
+        margin-bottom: 0px;
+    }
+}
+
 .about-content {
-    margin-top: 150px;
+    margin-top: 30px;
     margin-bottom: 100px;
 } 
 
-@media screen and (min-width: 40em){
-    .about-content {
-        margin-top: 210px;
-    } 
-}
+// @media screen and (min-width: 40em){
+//     .about-content {
+//         margin-top: 210px;
+//     } 
+// }
 
 .technical-skills {
     margin-top: 60px;
