@@ -227,7 +227,7 @@ img {
 .img-overlay-caption-02 {
     background: #f9003c;
     display: block;
-    padding: 30px;
+    padding: 35px;
     h6 {
         color: $white;
         text-align: left;
@@ -235,8 +235,8 @@ img {
     p {
         text-align: left;
         font-family: $medium-font;
-        font-size: rem-calc(28);
-        line-height: 1;
+        font-size: rem-calc(26);
+        line-height: 1.1;
     }
     * {
         color: $white;
@@ -248,12 +248,18 @@ img {
 .project-title {
     line-height: 1.2;
     margin-bottom: 5px;
+    span {
+        font-family: $body-font;
+        color: $font-color-gray;
+    }
 }
 
 .project-tags {
-    font-size: rem-calc(16);
-    color: $dark-gray;
-    font-family: $medium-font;
+    font-size: rem-calc(14);
+    color: $font-color-gray;
+    font-family: $body-font;
+    margin-top: 30px;
+    line-height: 1.1;
 }
 
 

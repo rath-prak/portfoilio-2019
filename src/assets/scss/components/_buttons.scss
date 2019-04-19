@@ -195,7 +195,7 @@
   width: 100%;
   display: block;
   padding: 20px;
-  background: $accent-color;
+  background: #767676;
   color: $white;
   font-weight: 700;
   text-transform: uppercase;
@@ -205,6 +205,6 @@
 }
 
 .explore-btn:hover {
-  background: darken($accent-color, 5);
+  background: #767676;
   color: $white;
 }

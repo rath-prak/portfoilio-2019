@@ -19,29 +19,42 @@
       width: 200px;
     }
   }
-  .home-scroll {
-    position: absolute;
-    transform: rotate(-90deg);
-    bottom: 3%;
-    left: 1%;
-    opacity: 0.5;
-    p {
-      font-size: 12px;
-      font-weight: 400;
-      color: $white;
-    }
-  }
+
+  // .home-scroll {
+  //   position: absolute;
+  //   transform: rotate(-90deg);
+  //   bottom: 3%;
+  //   left: 1%;
+  //   opacity: 0.5;
+  //   p {
+  //     font-size: 12px;
+  //     font-weight: 400;
+  //     color: $white;
+  //   }
+  // }
 }
 
 
-.into-para {
-  padding: 120px 0;
-  color: $primary-color;
-  p {
-    font-size: 36px;
-  }
-}
+// .into-para {
+//   padding: 120px 0;
+//   color: $primary-color;
+//   p {
+//     font-size: 36px;
+//   }
+// }
 
 // .intro-section {
 //   margin: 90px 0;
 // }
+
+.home-intro {
+  .lead-paragraph-large {
+  }
+  a {
+    font-size: 16px;
+    font-family: $medium-font;
+  }
+  a:hover {
+    color: #f9003c;
+  }
+}
