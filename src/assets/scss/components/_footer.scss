@@ -1,5 +1,5 @@
 .footer-rev {
-    *{
+    * {
         color: $white;
     }
     .footer-content {
@@ -55,6 +55,7 @@
         margin: 30px 0px 10px 0px;
     }
     .footer-contact {
+        margin-bottom: 30px; 
         h6 {
         color: $font-color;
         margin-top: 20px;
@@ -73,7 +74,9 @@
             li {
                 margin-right: 10px;
                 font-size: 16px;
+                }
             }
+                
         }
     }
     .horizontal-ruler-thin {
