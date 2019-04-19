@@ -225,7 +225,7 @@ img {
 }
 
 .img-overlay-caption-02 {
-    background: #f9003c;
+    background: $accent-color;
     display: block;
     padding: 35px;
     h6 {
@@ -257,7 +257,7 @@ img {
 .project-tags {
     font-size: rem-calc(14);
     color: $font-color-gray;
-    font-family: $body-font;
+    font-family: $medium-font;
     margin-top: 30px;
     line-height: 1.1;
 }
