@@ -1,17 +1,15 @@
-$manu-color: #A1CCDD;
+$manu-color: #042047;
 $manu-color-02: #537ae7;
 $manu-bg-color: #e6effa;
 
-.manu-hero {
+.manu-hero-wrapper {
     background: $manu-color;
+    text-align: center;
     img {
-        width: 250px;
+        width: 300px;
     }
 }
 
-// .manu {
-//     background: #F4F6F1;
-// }
 
 .manu-final-presentation {
     background: lighten($manu-bg-color, 5);
@@ -26,7 +24,6 @@ $manu-bg-color: #e6effa;
         flex-direction: column;
         h1 {
             font-size: 50px;
-            // text-transform: uppercase;
             color: $manu-color-02;
         }
         p.lead-paragraph-large {
