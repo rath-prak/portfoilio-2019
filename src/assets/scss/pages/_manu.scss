@@ -5,11 +5,12 @@ $manu-bg-color: #e6effa;
 .manu-hero-wrapper {
     background: $manu-color;
     text-align: center;
+    padding: 20px;
     img {
+        margin-top: 30px;
         width: 300px;
     }
 }
-
 
 .manu-final-presentation {
     background: lighten($manu-bg-color, 5);
@@ -69,10 +70,19 @@ $manu-bg-color: #e6effa;
 
 // to be continued
 .to-be-continued {
-    margin-top: 90px;
-    padding: 60px;
+    margin-top: 30px;
+    // padding: 60px;
 }
 
+@media screen and (min-width: 40em){
+    .to-be-continued {
+        margin-top: 30px;
+        padding: 60px 60px 0px 60px;
+        img {
+            width: 100%;
+        }
+    }
+}
 
 
 

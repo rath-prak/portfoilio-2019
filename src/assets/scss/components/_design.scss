@@ -128,7 +128,7 @@ img {
 // Lead text for introduction paragraphs
   
 .lead {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -344,10 +344,11 @@ img {
 
 .image-caption {
     font-size: 14px;
-    font-weight: 600;
+    font-family: $body-font;
     font-style: italic;
-    margin-top: 5px;
-    color: rgba($font-color, 0.75);
+    margin-top: 15px;
+    color: $font-color-gray;
+    line-height: 1.4;
 }
 
 // Paragraph side block decoration
