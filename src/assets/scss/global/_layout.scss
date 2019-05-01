@@ -45,32 +45,52 @@ section {
 }
 
 
+// Project introduction
+.project-intro {
+  padding-top: 180px;
+  h6 {
+      text-transform: uppercase;
+      font-weight: 400;
+  }
+}
+
+.project-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 40em){
+  .project-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
 
 // text center
-.col-1-text-center {
-  h3, p {
-    text-align: center;
-  }
-}
+// .col-1-text-center {
+//   h3, p {
+//     text-align: center;
+//   }
+// }
 
-// full page image center page
-.fw-image-01 {
-  width: 100%;
-  text-align: center;
-  img {
-    width: 100%;
-  }
-}
+// // full page image center page
+// .fw-image-01 {
+//   width: 100%;
+//   text-align: center;
+//   img {
+//     width: 100%;
+//   }
+// }
 
-// full page image flush
-.fw-image-02 {
-  width: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
-  img {
-    width: 100%;
-  }
-}
+// // full page image flush
+// .fw-image-02 {
+//   width: 100%;
+//   padding-left: 0px;
+//   padding-right: 0px;
+//   img {
+//     width: 100%;
+//   }
+// }
 
 // NEW Layout styles
 

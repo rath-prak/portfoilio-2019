@@ -78,7 +78,8 @@
             }
                 
         }
-        .horizontal-ruler-thin {
+        .horizontal-ruler-thin,
+        .horizontal-ruler-thin-rev {
             margin-bottom: 10px;
         }
         .footer-copyright {
@@ -96,11 +97,10 @@
         padding: 90px 0;
         .footer-logo {
             img {
-                width: 75%;
+                width: 60%;
             }
         }
     }
-
     .footer-content {
         .horizontal-ruler-thick {
             display: block;
