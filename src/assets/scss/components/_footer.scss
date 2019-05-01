@@ -9,13 +9,19 @@
             }
         }
     } 
+    .footer-logo {
+        margin-top: 30px;
+    }
+
 }
+
 
 .footer-wapper {
     padding: 10px;
     .footer-logo {
+        margin-bottom: 30px;
         img {
-            width: 55%;
+            width: 35%;
         }
     }
 }
@@ -96,8 +102,9 @@
     .footer-wapper {
         padding: 90px 0;
         .footer-logo {
+            margin-bottom: 0px;
             img {
-                width: 60   %;
+                width: 60%;
             }
         }
     }
@@ -117,5 +124,9 @@
             }
         }
     } 
+    .footer-rev {
+        .footer-logo {
+            margin-top: 0px;
+        }
+    }
 }
-

@@ -265,7 +265,11 @@
 
 /* UNDERLINE BUTTON */
 .menu-underline {
-  height: rem-calc(2);
+  height: rem-calc(1);
   transform: scaleX(0);
   background: $primary-color;
+}
+
+.menu-underline-reverse {
+  background: $white;
 }

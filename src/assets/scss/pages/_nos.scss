@@ -24,7 +24,7 @@ $nos-gradient: linear-gradient(270deg, #9DCC49 0%, #429321 100%);
             font-family: $light-font;
         }
         .nos-hero-img {
-            max-width: 250px;
+            max-width: 180px;
             margin: 15px auto;
         }
 
@@ -40,6 +40,16 @@ $nos-gradient: linear-gradient(270deg, #9DCC49 0%, #429321 100%);
     }
     .nos-type {
         width: 40%;
+    }
+}
+
+@media screen and (min-width: 40em){
+    .nos-hero-wrapper {
+        .nos-hero-content {
+            .nos-hero-img {
+                max-width: 220px;
+            }
+        }
     }
 }
 
@@ -124,19 +134,19 @@ $nos-gradient: linear-gradient(270deg, #9DCC49 0%, #429321 100%);
 // Nos Wallet
 .nos-wallet-wrapper {
     background: #eaeeef;
-    padding: 200px 15px 90px 15px;
+    padding: 90px 15px 90px 15px;
     position: relative;
     .nos-wallet-type {
         position: absolute;
         width: 100%;
-        top: 120px;
+        top: 80px;
         opacity: 0.03;
     }
 }
 
 @media screen and (min-width: 40em){
     .nos-wallet-wrapper {
-        padding: 200px 0px 90px 0px;
+        padding: 180px 0px 90px 0px;
     }
 }
 
