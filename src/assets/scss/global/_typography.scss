@@ -1,20 +1,24 @@
-// @font-face { font-family: omnes_bold; src: url(../fonts/Omnes_ATTW02-Bold.woff);}
-// @font-face { font-family: omnes_bold-italic; src: url(../fonts/OmnesATTW02-BoldItalic.woff);}
+// @font-face { font-family: graphik-light; src: url(../css/fonts/Graphik-300-Light.otf);}
+// @font-face { font-family: graphik-regular; src: url(../css/fonts/Graphik-400-Regular.otf);}
+// @font-face { font-family: graphik-semibold; src: url(../css/fonts/Graphik-600-SemiBold.otf);}
+// @font-face { font-family: graphik-bold; src: url(../css/fonts/Graphik-700-bold.otf);}
 
-@font-face { font-family: graphik-light; src: url(../fonts/Graphik-300-Light.otf);}
-@font-face { font-family: graphik-regular; src: url(../fonts/Graphik-400-Regular.otf);}
-// @font-face { font-family: graphik-medium; src: url(../fonts/Graphik-500-Medium.otf);}
-@font-face { font-family: graphik-semibold; src: url(../fonts/Graphik-600-SemiBold.otf);}
-@font-face { font-family: graphik-bold; src: url(../fonts/Graphik-700-bold.otf);}
-// @font-face { font-family: graphik-black; src: url(../fonts/Graphik-800-black.otf);}
+
+// $light-font: graphik-light, sans-serif;
+// $body-font: graphik-regular, sans-serif;
+// $medium-font: graphik-semibold, sans-serif;
+// $bold-font: graphik-bold, sans-serif;
+
+@font-face { font-family: graphik-light; src: url(../css/fonts/Graphik-300-Light.otf);}
+@font-face { font-family: graphik-regular; src: url(../css/fonts/Graphik-Regular-Web.woff);}
+@font-face { font-family: graphik-semibold; src: url(../css/fonts/Graphik-Medium-Web.woff);}
+@font-face { font-family: graphik-bold; src: url(../css/fonts/Graphik-Bold-Web.woff);}
 
 
 $light-font: graphik-light, sans-serif;
 $body-font: graphik-regular, sans-serif;
 $medium-font: graphik-semibold, sans-serif;
 $bold-font: graphik-bold, sans-serif;
-// $black-font: graphik-black, sans-serif;
-
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $bold-font;
