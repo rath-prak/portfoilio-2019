@@ -1,0 +1,32 @@
+.turks-hero {
+    background: #102839;
+}
+
+.turks-hero-content {
+    h1 {
+        color: #f0b536;
+    }
+}
+
+
+.turks-bg {
+    background: white;
+    position: relative;
+    .dashboard-img {
+        z-index: 10;
+    }
+    .turks-solid-bg {
+        height: 100%;
+        width: 30%;
+        // background: #f0b536;
+        background: white;
+        position: absolute;
+        right: 0;
+        z-index: 0;  
+        bottom: 0px;
+    }
+}
+
+.turks-mobile {
+    background: #f0b536;
+}
