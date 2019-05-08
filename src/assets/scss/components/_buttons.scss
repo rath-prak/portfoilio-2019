@@ -79,7 +79,7 @@
   margin-top: 32px;
   background-color: white;
   position: absolute;
-  transition: all 0.5s ease;
+  transition: all 0.25s ease;
 	z-index: -1;
  }
 
@@ -153,7 +153,19 @@ a.btn-primary:hover {
  .btn-primary-large-02 {
   margin: 30px 0px;
   text-align: center;
+  a {
+    background:  #f0b536;
+    color: white;
+    font-family: $bold-font;
+  }
 }
+
+.btn-primary-large-02 {
+  a:hover {
+    background:  darken(#f0b536, 10);
+  }
+}
+
 
 
  .btn-secondary-03 {

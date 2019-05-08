@@ -1,5 +1,5 @@
 .turks-hero {
-    background: #102839;
+    // background: #102839;
 }
 
 .turks-hero-content {
@@ -20,6 +20,7 @@
         width: 30%;
         // background: #f0b536;
         background: white;
+        // background: lighten(#f0b536, 30);
         position: absolute;
         right: 0;
         z-index: 0;  
