@@ -172,6 +172,39 @@ img {
     font-size: 1em;
 }
 
+// Padding spaces
+.padding-large-x0 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .padding-large-x1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .padding-large-x2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  @media screen and (min-width: 40em){
+    .padding-large-x0 {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  
+    .padding-large-x1 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    
+    .padding-large-x2 {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+
 
   
 /* HEADINGS */
